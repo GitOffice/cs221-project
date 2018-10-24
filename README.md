@@ -1,2 +1,2 @@
 # cs221-project
-Trying to Approximate English names (or names written with latin characters) with Chinese characters
+Approximate transcription of English names (or names written with Latin characters) into Chinese characters.
