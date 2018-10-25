@@ -59,7 +59,7 @@ def baseline(components):
                                or (i + 2 == len(components)):
                                 #should do the pairing CV; not CVC case
                                 part = arp_to_chin_df.loc[row][col].encode('utf-8')
-                                chin_char = part.decode('utf-8')
+                                chin_char = part.decode('utf-8').split('/')[0].strip()
                                 #print "found the pairing " + str(i)
                                 all_chars.append(chin_char)
                                 foundChar = True
@@ -73,7 +73,7 @@ def baseline(components):
                                 #second_half = components[i + 1][:len(components[i + 1]) - 1] + components[i + 2] + " "
                                 #this_row = is_vowel(second_half)
                                 part = arp_to_chin_df.loc[this_row][col].encode('utf-8')
-                                chin_char = part.decode('utf-8')
+                                chin_char = part.decode('utf-8').split('/')[0].strip()
                                 all_chars.append(chin_char)
                                 foundChar = True
                                 foundPair = True
@@ -83,7 +83,7 @@ def baseline(components):
                 # else, print the lone consonant transcription
                 if foundChar == False:
                     part = arp_to_chin_df.loc['-'][col].encode('utf-8')
-                    chin_char = part.decode('utf-8')
+                    chin_char = part.decode('utf-8').split('/')[0].strip()
                     #print "just the consonant "  + str(i)
                     all_chars.append(chin_char)
                     foundChar = True
@@ -96,7 +96,7 @@ def baseline(components):
                     curr_IPA = closest_IPA(components[i])
                     if curr_IPA in row:
                         part = arp_to_chin_df.loc[row]['-'].encode('utf-8')
-                        chin_char = part.decode('utf-8')
+                        chin_char = part.decode('utf-8').split('/')[0].strip()
                         #print "just the vowel " + str(i)
                         all_chars.append(chin_char)
                         foundChar = True
