@@ -1,6 +1,7 @@
 import pandas as pd
 import edit_distance
 import baseline
+import os
 
 def process_oracle(oracle_csv):
     df = pd.read_csv(oracle_csv)
@@ -33,11 +34,11 @@ def process_baseline(oracle_csv):
 
 if __name__ == "__main__":
     print("\nORACLE:\n")
-    avg, count, size = process_oracle("../Oracles.csv")
+    avg, count, size = process_oracle(os.path.join("..", "Oracles.csv"))
     print("Out of {} names, {} were different, with an average edit distance of {}".format(size, count, avg))
 
     print("\n\nBASELINE:\n")
-    process_baseline("../Oracles.csv")
+    process_baseline(os.path.join("..", "Oracles.csv"))
     print("Figure out what to do with these... I'm not sure how you want to handle multiple possible characters. Choose one maybe?")
     print("You're gonna have to edit your baseline.py file to make that work")
 
