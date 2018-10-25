@@ -1,8 +1,10 @@
 import pandas as pd
 import sys
 import edit_distance
+import os
 
-arp_to_chin = pd.ExcelFile("..\ARPtoChineseFinal.xls")
+# this is probably bad style...
+arp_to_chin = pd.ExcelFile(os.path.join("..", "ARPtoChineseFinal.xls"))
 arp_to_chin_df = arp_to_chin.parse('Sheet2')
 
 def is_consonant(sound):
@@ -36,65 +38,73 @@ def closest_IPA(char):
                     closest_sound = row
         return closest_sound
 
-components = list(input("Enter a name: ").upper())
 
-foundPair = False
-i = 0
-while i < len(components):        
-    foundChar = False
+def baseline(components):
+    components = list(components.upper())
     foundPair = False
-    for col in list(arp_to_chin_df):
-        curr_IPA = closest_IPA(components[i])
-        if foundChar == False and i < len(components) and curr_IPA in col:
-            for row in list(arp_to_chin_df.index):
-                if foundChar == False and i + 1 < len(components):
-                    next_IPA = closest_IPA(components[i + 1])
-                    if next_IPA in row:
-                        if (i + 3 == len(components) and not is_consonant(components[i + 2])) \
-                           or (i + 3 < len(components) and is_consonant(components[i + 2]) and not(is_consonant(components[i + 3]))) \
-                           or (i + 2 == len(components)):
-                            #should do the pairing CV; not CVC case
-                            part = arp_to_chin_df.loc[row][col].encode('utf-8')
-                            chin_char = part.decode('utf-8')
-                            #print "found the pairing " + str(i)
-                            print (chin_char)
-                            foundChar = True
-                            foundPair = True
-                            i += 1
-                            break
-                        else:
-                            #CVC case
-                            second_half = components[i + 1] + components[i + 2]
-                            this_row = closest_IPA(second_half)
-                            #second_half = components[i + 1][:len(components[i + 1]) - 1] + components[i + 2] + " "
-                            #this_row = is_vowel(second_half)
-                            part = arp_to_chin_df.loc[this_row][col].encode('utf-8')
-                            chin_char = part.decode('utf-8')
-                            print (chin_char)
-                            foundChar = True
-                            foundPair = True
-                            i += 2
-                            break
-                
-            # else, print the lone consonant transcription
-            if foundChar == False:
-                part = arp_to_chin_df.loc['-'][col].encode('utf-8')
-                chin_char = part.decode('utf-8')
-                #print "just the consonant "  + str(i)
-                print (chin_char)
-                foundChar = True
-                break
-    
-    # else, print the lone vowel transcription
-    if foundChar == False and foundPair == False:
-        for row in list(arp_to_chin_df.index):
-            if foundChar == False and i < len(components):
-                curr_IPA = closest_IPA(components[i])
-                if curr_IPA in row:
-                    part = arp_to_chin_df.loc[row]['-'].encode('utf-8')
+    i = 0
+    all_chars = []
+    while i < len(components):        
+        foundChar = False
+        foundPair = False
+        for col in list(arp_to_chin_df):
+            curr_IPA = closest_IPA(components[i])
+            if foundChar == False and i < len(components) and curr_IPA in col:
+                for row in list(arp_to_chin_df.index):
+                    if foundChar == False and i + 1 < len(components):
+                        next_IPA = closest_IPA(components[i + 1])
+                        if next_IPA in row:
+                            if (i + 3 == len(components) and not is_consonant(components[i + 2])) \
+                               or (i + 3 < len(components) and is_consonant(components[i + 2]) and not(is_consonant(components[i + 3]))) \
+                               or (i + 2 == len(components)):
+                                #should do the pairing CV; not CVC case
+                                part = arp_to_chin_df.loc[row][col].encode('utf-8')
+                                chin_char = part.decode('utf-8')
+                                #print "found the pairing " + str(i)
+                                all_chars.append(chin_char)
+                                foundChar = True
+                                foundPair = True
+                                i += 1
+                                break
+                            else:
+                                #CVC case
+                                second_half = components[i + 1] + components[i + 2]
+                                this_row = closest_IPA(second_half)
+                                #second_half = components[i + 1][:len(components[i + 1]) - 1] + components[i + 2] + " "
+                                #this_row = is_vowel(second_half)
+                                part = arp_to_chin_df.loc[this_row][col].encode('utf-8')
+                                chin_char = part.decode('utf-8')
+                                all_chars.append(chin_char)
+                                foundChar = True
+                                foundPair = True
+                                i += 2
+                                break
+                    
+                # else, print the lone consonant transcription
+                if foundChar == False:
+                    part = arp_to_chin_df.loc['-'][col].encode('utf-8')
                     chin_char = part.decode('utf-8')
-                    #print "just the vowel " + str(i)
-                    print (chin_char)
+                    #print "just the consonant "  + str(i)
+                    all_chars.append(chin_char)
                     foundChar = True
                     break
-    i += 1
+        
+        # else, print the lone vowel transcription
+        if foundChar == False and foundPair == False:
+            for row in list(arp_to_chin_df.index):
+                if foundChar == False and i < len(components):
+                    curr_IPA = closest_IPA(components[i])
+                    if curr_IPA in row:
+                        part = arp_to_chin_df.loc[row]['-'].encode('utf-8')
+                        chin_char = part.decode('utf-8')
+                        #print "just the vowel " + str(i)
+                        all_chars.append(chin_char)
+                        foundChar = True
+                        break
+        i += 1
+    return "".join(all_chars)
+
+if __name__ == "__main__":
+    components = input("Enter a name: ")
+    res = baseline(components, arp_to_chin, arp_to_chin_df)
+    print(res)

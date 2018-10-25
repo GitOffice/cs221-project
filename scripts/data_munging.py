@@ -17,10 +17,24 @@ filename = argv[1]
 
 
 # editing the large all-name file
+#import pandas as pd
+#
+#df = pd.read_csv(filename)
+#
+#df["first name"] = df["first name"].apply(lambda x: x.strip().split()[0])
+#df.drop("last name", axis=1, inplace=True)
+#df.to_csv("{}.tmp".format(filename), header="column_names", index=False)
+
+
+
+
+
+# editing the oracle csv
 import pandas as pd
 
 df = pd.read_csv(filename)
 
-df["first name"] = df["first name"].apply(lambda x: x.strip().split()[0])
-df.drop("last name", axis=1, inplace=True)
+df["Pinyin_O1"] = df["Pinyin_O1"].apply(lambda x: "".join(x.strip().split()))
+df["Pinyin_O2"] = df["Pinyin_O2"].apply(lambda x: "".join(x.strip().split()))
+df["English"] = df["English"].apply(lambda x: x.strip().split()[0])
 df.to_csv("{}.tmp".format(filename), header="column_names", index=False)
