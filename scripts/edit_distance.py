@@ -21,8 +21,17 @@ def edit_distance(str1, str2):
             cache[(str1, str2)] = ed
             return ed
 
-    return recurse(str1, str2)
+    return recurse(str1, str2) - common_chars(str1, str2)
     
+def common_chars(str1, str2):
+    str1 = set(str1)
+    str2 = set(str2)
+    count = 0
+    for char1 in str1:
+        for char2 in str2:
+            if char1 == char2:
+                count += 1
+    return count
 
 def test_edit_distance():
     assert edit_distance("hello", "hell") == 1
