@@ -4,7 +4,7 @@ import edit_distance
 import os
 
 # this is probably bad style...
-arp_to_chin = pd.ExcelFile(os.path.join("..", "ARPtoChineseFinal.xls"))
+arp_to_chin = pd.ExcelFile(os.path.join("..", "data", "ARPtoChineseFinal.xls"))
 arp_to_chin_df = arp_to_chin.parse('Sheet2')
 
 def is_consonant(sound):

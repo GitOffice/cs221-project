@@ -24,7 +24,7 @@ def process_oracle(oracle_csv):
 
 def process_baseline(oracle_csv):
     df = pd.ExcelFile(oracle_csv).parse('Sheet1')
-    df_baseline_pinyin = pd.ExcelFile(os.path.join("..", "BaselineResponses.xlsx")).parse('Sheet1')
+    df_baseline_pinyin = pd.ExcelFile(os.path.join("..", "data", "proposal", "BaselineResponses.xlsx")).parse('Sheet1')
     #df = pd.read_csv(oracle_csv)
     names = df["English"]
     o1 = df["Pinyin_O1"]
@@ -49,9 +49,9 @@ def process_baseline(oracle_csv):
 
 if __name__ == "__main__":
     print("\nORACLE:\n")
-    avg, count, size = process_oracle(os.path.join("..", "OracleResponses.xlsx"))
+    avg, count, size = process_oracle(os.path.join("..","data","proposal", "OracleResponses.xlsx"))
     print("Out of {} names, {} were different, with an average edit distance of {}".format(size, count, avg))
 
     print("\n\nBASELINE:\n")
-    avg, count, size = process_baseline(os.path.join("..", "OracleResponses.xlsx"))
+    avg, count, size = process_baseline(os.path.join("..", "data", "proposal", "OracleResponses.xlsx"))
     print("Out of {} names, {} were different, with an average edit distance of {}".format(size, count, avg))
