@@ -1,0 +1,1511 @@
+first name,chinese, gender,pinyin
+Aaron,艾伦,m,ài lún
+Aaron,阿隆,m,ā lóng
+Abbott,艾布特,m,ài bù tè
+Abel,亚伯,m,yà bó
+Abie,阿碧,f,ā bì
+Abigail,艾比盖,f,ài bǐ gài
+Abigail,阿比盖尔,m,ā bǐ gài ěr
+Abner,艾伯纳,m,ài bó nà
+Abraham,亚伯拉罕,m,yà bó lā hǎn
+Achille,阿希尔,m,ā xī ěr
+Ada,埃达,f,āi dá
+Adair,亚岱尔,m,yà dài ěr
+Adam,亚当,m,yà dāng
+Adela,爱得拉,f,ài dé lā
+Adelaide,爱得莱德,f,ài dé lái dé
+Adolph,阿道夫,m,ā dào fū
+Adonis,亚度尼斯,m,yà dù ní sī
+Adrian,阿德里安,m,ā dé lǐ ān
+Adriana,阿德里亚娜,f,ā dé lǐ yà nà
+Adrien,阿德里安,m,ā dé lǐ ān
+Afra,阿芙拉,f,ā fú lā
+Agatha,阿加莎,f,ā jiā shā
+Agnes,爱葛妮丝,f,ài gé nī sī
+Aki,阿基,m,ā jī
+Alan,艾伦,m,ài lún
+Alan,阿兰,m,ā lán
+Alanis,阿拉尼斯,f,ā lā ní sī
+Alban,阿尔本,m,ā ěr běn
+Albert,艾伯特,m,ài bó tè
+Albert,阿尔伯特,m,ā ěr bó tè
+Alberta,爱尔柏塔,f,ài ěr bǎi tǎ
+Aldrich,奥德里奇,m,ào dé lǐ qí
+Alec,阿雷克,m,ā léi kè
+Alex,阿列克斯,m,ā liè kè sī
+Alexander,亚历山大,m,yà lì shān dà
+Alexandra,亚历山德拉,f,yà lì shān dé lā
+Alexandre,亚历山大,m,yà lì shān dà
+Alexia,亚莉克希亚,f,yà lì kè xī yà
+Alfonso,阿方索,m,ā fāng suǒ
+Alfred,亚尔弗列得,m,yà ěr fú liè dé
+Alfred,阿尔弗雷德,m,ā ěr fú léi dé
+Alger,阿杰尔,m,ā jié ěr
+Alice,爱丽丝,f,ài lì sī
+Alice,艾丽斯,f,ài lì sī
+Alicia,艾莉西亚,f,ài lì xī yà
+Alison,阿莉森,f,ā lì sēn
+Allan,阿兰,m,ā lán
+Allen,艾伦,m,ài lún
+Allen,阿伦,m,ā lún
+Allison,埃里森,m,āi lǐ sēn
+Alma,爱玛,f,ài mǎ
+Alston,奥斯顿,m,ào sī dùn
+Alva,阿尔娃,f,ā ěr wá
+Alva,阿尔瓦,m,ā ěr wǎ
+Alvin,阿尔文,m,ā ěr wén
+Alvis,亚尔维斯,m,yà ěr wéi sī
+Alyssa,艾莉莎,f,ài lì shā
+Amadeo,阿马德奥,m,ā mǎ dé ào
+Amanda,阿曼达,f,ā màn dá
+Amedeo,阿米地奥,m,ā mǐ de ào
+Amelia,阿梅丽娅,f,ā méi lì yà
+Amelia,阿蜜莉雅,f,ā mì lì yǎ
+Amos,亚摩斯,m,yà mó sī
+Amy,艾咪,f,ài mī
+Amy,艾美,f,ài měi
+Anastasia,安娜塔西雅,f,ān nà tǎ xī yǎ
+Anastasia,阿娜丝塔西亚,f,ā nà sī tǎ xī yà
+Andelin,安德林,m,ān dé lín
+Andre,安得烈,m,ān dé liè
+Andre,安德烈,m,ān dé liè
+Andrea,安德丽娅,f,ān dé lì yà
+Andrea,安德烈亚,f,ān dé liè yà
+Andrew,安德鲁,m,ān dé lǔ
+Andy,安迪,m,ān dí
+Angela,安杰拉,f,ān jié lā
+Angelina,安吉丽娜,f,ān jí lì nà
+Angelo,安其罗,m,ān qí luō
+Angie,安吉,f,ān jí
+Ann,安,f,ān
+Ann,安妮,f,ān nī
+Anna,安娜,f,ān nà
+Annabelle,安纳贝尔,f,ān nà bèi ěr
+Anne,安,f,ān
+Annette,安妮特,f,ān nī tè
+Annie,安妮,f,ān nī
+Ansel,安西尔,m,ān xī ěr
+Anthony,安东尼,m,ān dōng ní
+Antonia,安东妮儿,f,ān dōng nī ér
+Antonio,安东尼奥,m,ān dōng ní ào
+Antony,安东尼,m,ān dōng ní
+Apollon,阿波罗,m,ā bō luō
+April,艾普尔,f,ài pǔ ěr
+April,艾谱莉,f,ài pǔ lì
+Archer,阿奇尔,m,ā qí ěr
+Archibald,阿奇柏德,m,ā qí bǎi dé
+Ariana,艾丽安娜,f,ài lì ān nà
+Ariel,亚列,m,yà liè
+Aries,亚力士,m,yà lì shì
+Aris,阿里斯,m,ā lǐ sī
+Arlen,亚尔林,m,yà ěr lín
+Arlene,艾琳娜,f,ài lín nà
+Armand,亚尔曼,m,yà ěr màn
+Armstrong,阿姆斯壮,m,ā mǔ sī zhuàng
+Arno,阿诺,m,ā nuò
+Arnold,阿尔诺德,m,ā ěr nuò dé
+Arthur,亚瑟,m,yà sè
+Arthur,阿瑟,m,ā sè
+Arvin,艾文,m,ài wén
+Asa,亚撒,m,yà sā
+Ashley,艾什莉,f,ài shén lì
+Astrid,艾丝翠得,f,ài sī cuì dé
+Athena,阿西娜,f,ā xī nà
+Atwood,亚特伍德,m,yà tè wǔ dé
+Aubrey,奥布里,m,ào bù lǐ
+Audrey,奥德丽,f,ào dé lì
+Audrey,奥黛丽,f,ào dài lì
+Augus,安格斯,m,ān gé sī
+August,奥古斯特,m,ào gǔ sī tè
+August,奥格斯格,m,ào gé sī gé
+Augustine,奥古斯汀,m,ào gǔ sī tīng
+Aurora,奥劳拉,f,ào láo lā
+Austin,奥斯汀,m,ào sī tīng
+Avery,艾富里,m,ài fù lǐ
+Baird,拜尔德,m,bài ěr dé
+Baldwin,柏得温,m,bǎi dé wēn
+Barbara,笆笆拉,f,bā bā lā
+Barbara,芭芭拉,f,bā bā lā
+Bard,巴德,m,bā dé
+Barlow,巴罗,m,bā luō
+Barnett,巴奈特,m,bā nài tè
+Baron,巴伦,m,bā lún
+Barret,巴里特,m,bā lǐ tè
+Barry,巴利,m,bā lì
+Barry,巴里,m,bā lǐ
+Bart,巴特,m,bā tè
+Bartholomew,巴萨罗穆,m,bā sà luō mù
+Barton,巴顿,m,bā dùn
+Basil,巴泽尔,m,bā zé ěr
+Bblythe,布莱兹,f,bù lái zī
+Beacher,比其尔,m,bǐ qí ěr
+Beatrice,碧翠丝,f,bì cuì sī
+Beau,宝儿,m,bǎo ér
+Beck,贝克,m,bèi kè
+Becky,贝基,f,bèi jī
+Belinda,贝琳达,f,bèi lín dá
+Bella,贝拉,f,bèi lā
+Belle,贝拉,f,bèi lā
+Ben,本,m,běn
+Ben,班,m,bān
+Benedict,班尼迪克,m,bān ní dí kè
+Benjamin,本杰明,m,běn jié míng
+Benjamin,班杰明,m,bān jié míng
+Bennett,班奈特,m,bān nài tè
+Benny,本尼,m,běn ní
+Benson,班森,m,bān sēn
+Berg,柏格,m,bǎi gé
+Bernard,伯纳,m,bó nà
+Bernard,伯纳德,m,bó nà dé
+Bernice,柏妮丝,f,bǎi nī sī
+Bernie,伯尼,m,bó ní
+Bernie,贝尔尼,m,bèi ěr ní
+Bert,伯特,m,bó tè
+Bertha,柏莎,f,bǎi shā
+Berton,伯顿,m,bó dùn
+Bertram,伯特莱姆,m,bó tè lái mǔ
+Beryl,百丽儿,f,bǎi lì ér
+Bess,贝丝,f,bèi sī
+Betsy,贝琪,f,bèi qí
+Betsy,贝齐,f,bèi qí
+Betty,贝蒂,f,bèi dì
+Beverly,贝弗利,f,bèi fú lì
+Bevis,毕维斯,m,bì wéi sī
+Beyonce,碧昂斯,f,bì áng sī
+Bianca,碧昂卡,f,bì áng kǎ
+Bill,比尔,m,bǐ ěr
+Billo,比卢,m,bǐ lú
+Billy,比利,m,bǐ lì
+Bing,宾,m,bīn
+Birger,比尔格,m,bǐ ěr gé
+Bishop,毕夏普,m,bì xià pǔ
+Blair,布雷尔,m,bù léi ěr
+Blake,布莱克,m,bù lái kè
+Blanche,布兰琪,f,bù lán qí
+Blithe,布莱兹,m,bù lái zī
+Bob,鲍伯,m,bào bó
+Bob,鲍步,m,bào bù
+Bobby,鲍比,m,bào bǐ
+Bonnie,邦妮,f,bāng nī
+Booba,布巴,m,bù bā
+Booth,布兹,m,bù zī
+Borg,柏格,m,bǎi gé
+Boris,伯里斯,m,bó lǐ sī
+Boris,鲍里斯,m,bào lǐ sī
+Bowen,波文,m,bō wén
+Boyce,柏宜斯,m,bǎi yí sī
+Boyd,布德,m,bù dé
+Brad,布拉德,m,bù lā dé
+Bradley,布兰得利,m,bù lán dé lì
+Brady,布莱迪,m,bù lái dí
+Brandan,布兰丹,m,bù lán dān
+Brandon,布兰登,m,bù lán dēng
+Brandon,布阑登,m,bù lán dēng
+Brenda,布兰达,f,bù lán dá
+Brendan,布兰丹,m,bù lán dān
+Brendon,布兰登,m,bù lán dēng
+Brent,布兰特,m,bù lán tè
+Brett,布雷特,m,bù léi tè
+Brian,布莱恩,m,bù lái ēn
+Bridget,布里吉特,f,bù lǐ jí tè
+Bridget,布里奇特,f,bù lǐ qí tè
+Bridie,布里迪,m,bù lǐ dí
+Brittany,布里塔尼,f,bù lǐ tǎ ní
+Broderick,布拉得里克,m,bù lā dé lǐ kè
+Brook,布鲁克,m,bù lǔ kè
+Brooke,布鲁克,f,bù lǔ kè
+Bruce,布鲁斯,m,bù lǔ sī
+Bruno,布鲁诺,m,bù lǔ nuò
+Bryan,布莱恩,m,bù lái ēn
+Buck,巴克,m,bā kè
+Burgess,伯骑士,m,bó qí shì
+Burke,巴尔克,m,bā ěr kè
+Burnell,布尼尔,m,bù ní ěr
+Burton,波顿,m,bō dùn
+Byron,拜伦,m,bài lún
+Caden,卡登,m,kǎ dēng
+Caesar,凯撒,m,kǎi sā
+Caitlin,凯特琳,f,kǎi tè lín
+Calvin,卡尔文,m,kǎ ěr wén
+Cameron,卡梅隆,f,kǎ méi lóng
+Cameron,卡梅隆,m,kǎ méi lóng
+Camille,卡米拉,f,kǎ mǐ lā
+Candace,坎迪斯,f,kǎn dí sī
+Candice,坎蒂丝,f,kǎn dì sī
+Cara,卡拉,f,kǎ lā
+Carey,凯里,m,kǎi lǐ
+Carl,卡尔,m,kǎ ěr
+Carlone,卡尔伦,m,kǎ ěr lún
+Carlos,卡洛斯,m,kǎ luò sī
+Carmen,卡门,f,kǎ mén
+Carol,卡萝,f,kǎ luó
+Carol,卡罗尔,f,kǎ luō ěr
+Caroline,卡罗琳,f,kǎ luō lín
+Carr,凯尔,m,kǎi ěr
+Carrie,凯莉,f,kǎi lì
+Carter,卡特,m,kǎ tè
+Casey,凯西,m,kǎi xī
+Cash,凯希,m,kǎi xī
+Casper,卡斯派,m,kǎ sī pài
+Cassandra,卡桑德拉,f,kǎ sāng dé lā
+Cassey,凯西,m,kǎi xī
+Cassidy,卡希蒂,m,kǎ xī dì
+Catherine,凯瑟琳,f,kǎi sè lín
+Cathy,凯丝,f,kǎi sī
+Cathy,凯西,f,kǎi xī
+Cecil,塞西尔,m,sāi xī ěr
+Cecile,赛茜儿,f,sài qiàn ér
+Cecilia,塞西莉亚,f,sāi xī lì yà
+Cedric,塞德里克,m,sāi dé lǐ kè
+Cedric,赛得里克,m,sài dé lǐ kè
+Celeste,西莱斯特,f,xī lái sī tè
+Cesar,西泽,m,xī zé
+Chad,查德,m,chá dé
+Channing,强尼,m,qiáng ní
+Chapman,契布曼,m,qì bù màn
+Charles,查理斯,m,chá lǐ sī
+Charles,查而斯,m,chá ér sī
+Charley,查利,m,chá lì
+Charlie,查利,m,chá lì
+Charlotte,夏洛特,f,xià luò tè
+Charlotte,夏绿蒂,f,xià lǜ dì
+Charly,查利,m,chá lì
+Chase,蔡斯,m,cài sī
+Chasel,夏佐,m,xià zuǒ
+Chelsea,切尔西,f,qiè ěr xī
+Cherry,绮莉,f,qǐ lì
+Cheryl,谢丽尔,f,xiè lì ěr
+Cheryl,谢里尔,f,xiè lǐ ěr
+Chester,贾斯特,m,jiǎ sī tè
+Chico,奇科,m,qí kē
+Chloe,克洛怡,f,kè luò yí
+Chris,克里斯,m,kè lǐ sī
+Christ,基督,m,jī dū
+Christ,克莱斯特,m,kè lái sī tè
+Christian,克里斯汀,m,kè lǐ sī tīng
+Christian,克里斯蒂安,m,kè lǐ sī dì ān
+Christina,克里斯蒂娜,f,kè lǐ sī dì nà
+Christine,克莉斯婷,f,kè lì sī tíng
+Christine,克里斯廷,f,kè lǐ sī tíng
+Christo,克来斯多,m,kè lái sī duō
+Christopher,克来斯多夫,m,kè lái sī duō fū
+Christopher,克里斯多夫,m,kè lǐ sī duō fū
+Christy,克里斯蒂,f,kè lǐ sī dì
+Cindy,辛迪,f,xīn dí
+Claire,克莱儿,f,kè lái ér
+Claire,克莱尔,f,kè lái ěr
+Clara,克莱拉,f,kè lái lā
+Clare,克拉尔,m,kè lā ěr
+Clarence,克拉伦斯,m,kè lā lún sī
+Clark,克拉克,m,kè lā kè
+Claude,克劳德,m,kè láo dé
+Claudia,克劳迪娅,f,kè láo dí yà
+Claudy,克劳迪,m,kè láo dí
+Clement,克雷孟特,m,kè léi mèng tè
+Cleveland,克利夫兰,m,kè lì fū lán
+Cliff,柯利弗,m,kē lì fú
+Clyde,克莱得,m,kè lái dé
+Colbert,考伯特,m,kǎo bó tè
+Colby,考尔比,m,kǎo ěr bǐ
+Colin,科林,m,kē lín
+Colin,科琳,m,kē lín
+Connor,康纳,m,kāng nà
+Conrad,康拉德,m,kāng lā dé
+Constance,康斯坦丝,f,kāng sī tǎn sī
+Constance,康斯坦斯,f,kāng sī tǎn sī
+Constantin,康斯坦丁,m,kāng sī tǎn dīng
+Cooper,库珀,m,kù pò
+Cora,科拉,f,kē lā
+Coral,卡洛儿,f,kǎ luò ér
+Corentin,科朗汀,m,kē lǎng tīng
+Corey,克里,m,kè lǐ
+Corey,康里,m,kāng lǐ
+Cornelia,可妮莉雅,f,kě nī lì yǎ
+Cornelius,康那理惟士,m,kāng nà lǐ wéi shì
+Cornell,康奈尔,m,kāng nài ěr
+Cory,克里,m,kè lǐ
+Courtney,考特尼,f,kǎo tè ní
+Craig,克雷格,m,kè léi gé
+Cristian,克里斯蒂安,m,kè lǐ sī dì ān
+Crystal,克莉斯多,f,kè lì sī duō
+Curitis,柯帝士,m,kē dì shì
+Curtis,柯蒂斯,m,kē dì sī
+Cynthia,辛西亚,f,xīn xī yà
+Cynthia,辛西娅,f,xīn xī yà
+Cyril,西瑞尔,m,xī ruì ěr
+Cyril,西里尔,m,xī lǐ ěr
+Daisy,戴西,f,dài xī
+Daisy,黛西,f,dài xī
+Dale,黛儿,f,dài ér
+Dalila,达利拉,f,dá lì lā
+Damien,达米恩,m,dá mǐ ēn
+Damon,戴蒙,m,dài méng
+Dan,丹,m,dān
+Dana,丹娜,f,dān nà
+Dana,黛娜,f,dài nà
+Dana,戴纳,m,dài nà
+Daniel,丹尼尔,m,dān ní ěr
+Daniela,丹涅拉,f,dān niè lā
+Danielle,丹妮尔,f,dān nī ěr
+Danny,丹尼,m,dān ní
+Dany,丹尼,m,dān ní
+Daphne,达芙妮,f,dá fú nī
+Daphne,黛芙妮,f,dài fú nī
+Darcie,达尔西,m,dá ěr xī
+Darcy,达尔西,m,dá ěr xī
+Darian,达里安,m,dá lǐ ān
+Darlene,达莲娜,f,dá lián nà
+Darnell,达尼尔,m,dá ní ěr
+Darrell,达瑞尔,m,dá ruì ěr
+Darren,达伦,m,dá lún
+Daryl,达里尔,m,dá lǐ ěr
+Dave,戴夫,m,dài fū
+Dave,迪夫,m,dí fū
+David,大卫,m,dà wèi
+Davy,大卫,m,dà wèi
+Dawn,潼恩,f,tóng ēn
+Dean,迪恩,m,dí ēn
+Debby,黛碧,f,dài bì
+Deborah,德博拉,f,dé bó lā
+Deborah,黛博拉,f,dài bó lā
+Deirdre,迪得莉,f,dí dé lì
+Delia,迪丽雅,f,dí lì yǎ
+Dempsey,邓普斯,m,dèng pǔ sī
+Denise,丹妮丝,f,dān nī sī
+Denise,丹尼丝,f,dān ní sī
+Dennis,丹尼斯,m,dān ní sī
+Derek,德里克,m,dé lǐ kè
+Derrick,戴里克,m,dài lǐ kè
+Destiny,黛丝蒂妮,f,dài sī dì nī
+Devin,得文,m,dé wén
+Devis,德维斯,m,dé wéi sī
+Diana,黛安娜,f,dài ān nà
+Diane,黛安,f,dài ān
+Dick,狄克,m,dí kè
+Dimitri,迪米特里,m,dí mǐ tè lǐ
+Dina,迪娜,f,dí nà
+Dinah,黛娜,f,dài nà
+Dolores,多洛雷斯,f,duō luò léi sī
+Dominic,多明尼卡,f,duō míng ní kǎ
+Dominic,多明尼克,m,duō míng ní kè
+Don,唐,m,táng
+Donahue,唐纳修,m,táng nà xiū
+Donald,唐纳德,m,táng nà dé
+Donna,唐娜,f,táng nà
+Donovan,多诺万,m,duō nuò wàn
+Dora,多拉,f,duō lā
+Doreen,多琳,f,duō lín
+Dorian,多里安,f,duō lǐ ān
+Doris,多莉丝,f,duō lì sī
+Dorothy,桃乐斯,f,táo lè sī
+Douglas,道格拉斯,m,dào gé lā sī
+Drew,杜鲁,m,dù lǔ
+Duke,杜克,m,dù kè
+Duncan,邓肯,m,dèng kěn
+Dunn,唐恩,m,táng ēn
+Dwight,德维特,m,dé wéi tè
+Dylan,狄伦,m,dí lún
+Dylan,迪伦,m,dí lún
+Earl,俄尔,m,é ěr
+Eartha,尔莎,f,ěr shā
+Ed,艾德,m,ài dé
+Eddy,艾迪,m,ài dí
+Eden,伊甸,f,yī diān
+Eden,伊甸,m,yī diān
+Edgar,爱德格,m,ài dé gé
+Edison,埃迪森,m,āi dí sēn
+Edison,爱迪生,m,ài dí shēng
+Edith,伊迪丝,f,yī dí sī
+Edmond,埃德蒙,m,āi dé méng
+Edmund,艾德蒙,m,ài dé méng
+Edna,艾德娜,f,ài dé nà
+Edward,爱德华,m,ài dé huá
+Edwiin,爱德温,m,ài dé wēn
+Edwina,艾德文娜,f,ài dé wén nà
+Egbert,爱格伯特,m,ài gé bó tè
+Eileen,艾琳,f,ài lín
+Elaine,伊莲恩,f,yī lián ēn
+Eleanore,艾琳诺,f,ài lín nuò
+Elena,伊莲娜,f,yī lián nà
+Eli,伊莱,m,yī lái
+Elian,伊良,m,yī liáng
+Elias,埃利亚斯,m,āi lì yà sī
+Elie,伊利,m,yī lì
+Elijah,易莱哲,m,yì lái zhé
+Elio,埃利奥,m,āi lì ào
+Eliott,艾略特,m,ài lüè tè
+Elisa,爱丽莎,f,ài lì shā
+Elisabeth,伊丽莎白,f,yī lì shā bái
+Elise,爱丽丝,f,ài lì sī
+Elizabeth,伊丽莎白,f,yī lì shā bái
+Ella,埃拉,f,āi lā
+Ella,艾拉,f,ài lā
+Elle,艾莉,f,ài lì
+Ellen,艾伦,f,ài lún
+Elliot,艾略特,m,ài lüè tè
+Elliot,伊里亚德,m,yī lǐ yà dé
+Elliott,艾略特,m,ài lüè tè
+Ellis,艾理斯,m,ài lǐ sī
+Elma,艾尔玛,f,ài ěr mǎ
+Elmer,爱尔玛,m,ài ěr mǎ
+Eloise,艾萝依,f,ài luó yī
+Elora,伊劳拉,f,yī láo lā
+Elroy,爱罗伊,m,ài luō yī
+Elsa,爱尔莎,f,ài ěr shā
+Elsa,艾尔莎,f,ài ěr shā
+Elsie,艾西,f,ài xī
+Elton,埃尔顿,m,āi ěr dùn
+Elton,爱尔顿,m,ài ěr dùn
+Elva,艾娃,f,ài wá
+Elvin,埃尔温,m,āi ěr wēn
+Elvira,埃尔韦拉,f,āi ěr wéi lā
+Elvis,艾维斯,m,ài wéi sī
+Elvis,埃尔维斯,m,āi ěr wéi sī
+Elyse,艾丽丝,f,ài lì sī
+Emer,尹美尔,m,yǐn měi ěr
+Emerick,埃默里克,m,āi mò lǐ kè
+Emily,埃米莉,f,āi mǐ lì
+Emily,艾米莉,f,ài mǐ lì
+Emma,埃玛,f,āi mǎ
+Emma,艾玛,f,ài mǎ
+Emmanuel,艾曼纽,m,ài màn niǔ
+Enid,伊妮德,f,yī nī dé
+Enoch,伊诺克,m,yī nuò kè
+Enzo,恩佐,m,ēn zuǒ
+Erasmo,埃拉斯莫,m,āi lā sī mò
+Eric,艾利克,m,ài lì kè
+Eric,艾里克,m,ài lǐ kè
+Erica,艾丽卡,f,ài lì kǎ
+Erika,艾丽卡,f,ài lì kǎ
+Erin,艾琳,f,ài lín
+Ernest,欧尼斯特,m,ōu ní sī tè
+Erwan,艾万,m,ài wàn
+Erwann,艾万,m,ài wàn
+Erwin,埃尔温,m,āi ěr wēn
+Esther,艾丝特,f,ài sī tè
+Ethan,伊桑,m,yī sāng
+Ethel,艾瑟儿,f,ài sè ér
+Eudora,尤多拉,f,yóu duō lā
+Eugene,尤金,m,yóu jīn
+Eunice,尤妮斯,f,yóu nī sī
+Evan,伊万,m,yī wàn
+Evan,尔文,m,ěr wén
+Evangeline,伊文捷琳,f,yī wén jié lín
+Evans,埃文斯,m,āi wén sī
+Eve,伊夫,f,yī fū
+Eve,伊芙,f,yī fú
+Eveline,艾维琳,f,ài wéi lín
+Evelyn,伊夫林,f,yī fū lín
+Evelyn,艾芙琳,f,ài fú lín
+Evens,伊文斯,m,yī wén sī
+Everley,伊夫力,m,yī fū lì
+Fabian,富宾恩,m,fù bīn ēn
+Faithe,费滋,f,fèi zī
+Fanny,梵妮,f,fàn nī
+Fay,费怡,f,fèi yí
+Felicia,菲莉西亚,f,fēi lì xī yà
+Felix,菲力克斯,m,fēi lì kè sī
+Felix,费利克斯,m,fèi lì kè sī
+Ferdinand,斐迪南,m,fěi dí nán
+Filipa,菲莉帕,f,fēi lì pà
+Fiona,菲奥娜,f,fēi ào nà
+Fitch,费奇,m,fèi qí
+Flavio,弗拉维奥,m,fú lā wéi ào
+Flora,弗罗拉,f,fú luō lā
+Florence,弗罗伦丝,f,fú luō lún sī
+Ford,福特,m,fú tè
+Forest,佛雷斯特,m,fú léi sī tè
+Fox,福克斯,m,fú kè sī
+Frances,弗朗西斯,f,fú lǎng xī sī
+Francis,弗朗西斯,m,fú lǎng xī sī
+Francis,法兰西斯,m,fǎ lán xī sī
+Franck,富兰克,m,fù lán kè
+Frank,弗兰克,m,fú lán kè
+Frank,法兰克,m,fǎ lán kè
+Frankie,弗兰克,f,fú lán kè
+Frankie,弗兰克,m,fú lán kè
+Franklin,富兰克林,m,fù lán kè lín
+Franklin,法兰克林,m,fǎ lán kè lín
+Franky,弗兰克,m,fú lán kè
+Freda,弗莉达,f,fú lì dá
+Frederic,弗雷得力克,m,fú léi dé lì kè
+Frederic,弗雷德里克,m,fú léi dé lǐ kè
+Frederica,菲蕾德翠卡,f,fēi lěi dé cuì kǎ
+Friday,弗莱达,m,fú lái dá
+Gabriel,加布力尔,m,jiā bù lì ěr
+Gabriel,加布里埃尔,m,jiā bù lǐ āi ěr
+Gabrielle,嘉比里拉,f,jiā bǐ lǐ lā
+Gaby,加比,m,jiā bǐ
+Gael,盖尔,m,gài ěr
+Gail,盖尔,f,gài ěr
+Gail,盖尔,m,gài ěr
+Gale,加尔,m,jiā ěr
+Gally,加里,m,jiā lǐ
+Garry,加里,m,jiā lǐ
+Gary,加里,m,jiā lǐ
+Gary,盖理,m,gài lǐ
+Gaspard,加斯帕德,m,jiā sī pà dé
+Gautier,戈蒂耶,m,gē dì yé
+Gavin,盖文,m,gài wén
+Gavin,贾文,m,jiǎ wén
+Gaye,盖伊,m,gài yī
+Gaylord,格劳德,m,gé láo dé
+Gemini,杰米尼,m,jié mǐ ní
+Gemma,姬玛,f,jī mǎ
+Gene,吉恩,m,jí ēn
+Genevieve,珍妮芙,f,zhēn nī fú
+Geoffrey,乔弗瑞,m,qiáo fú ruì
+Geoffrey,杰佛理,m,jié fú lǐ
+George,乔治,m,qiáo zhì
+Georges,乔治斯,m,qiáo zhì sī
+Georgia,乔治亚,f,qiáo zhì yà
+Georgina,乔姬娜,f,qiáo jī nà
+Gerald,吉罗德,m,jí luō dé
+Geraldine,杰拉尔丁,f,jié lā ěr dīng
+Gilbert,吉伯特,m,jí bó tè
+Gilbert,吉尔伯特,m,jí ěr bó tè
+Gilberto,吉尔贝托,m,jí ěr bèi tuō
+Giles,吉艾斯,m,jí ài sī
+Gill,姬儿,f,jī ér
+Gillian,吉利安,m,jí lì ān
+Gina,吉娜,f,jí nà
+Ginger,金蔗尔,f,jīn zhè ěr
+Gisele,吉赛尔,f,jí sài ěr
+Gladys,格拉迪斯,f,gé lā dí sī
+Glenn,格伦,m,gé lún
+Glenn,葛兰,m,gé lán
+Gloria,葛罗瑞亚,f,gé luō ruì yà
+Godfery,高德佛里,m,gāo dé fú lǐ
+Gordon,戈登,m,gē dēng
+Grace,格蕾丝,f,gé lěi sī
+Grace,葛瑞丝,f,gé ruì sī
+Graham,格雷厄姆,m,gé léi è mǔ
+Greg,葛列格,m,gé liè gé
+Gregary,葛列格里,m,gé liè gé lǐ
+Gregory,格雷戈里,m,gé léi gē lǐ
+Griffith,葛里菲兹,m,gé lǐ fēi zī
+Griselda,葛莉谢尔达,f,gé lì xiè ěr dá
+Grover,格罗佛,m,gé luō fú
+Gus,古斯,m,gǔ sī
+Gustave,古斯塔夫,m,gǔ sī tǎ fū
+Gustave,葛佳丝塔芙,f,gé jiā sī tǎ fú
+Guy,盖,m,gài
+Gwendolyn,关德琳,f,guān dé lín
+Gwendolyn,沽雯都琳,f,gū wén dōu lín
+Gypsy,吉普赛,m,jí pǔ sài
+Hadrien,阿德里安,m,ā dé lǐ ān
+Hale,霍尔,m,huò ěr
+Haley,哈利,m,hā lì
+Hamiltion,汉米敦,m,hàn mǐ dūn
+Hannah,汉娜,f,hàn nà
+Hannah,汉纳,f,hàn nà
+Hans,汉斯,m,hàn sī
+Hardy,哈帝,m,hā dì
+Harlan,哈伦,m,hā lún
+Harley,哈利,m,hā lì
+Harold,哈乐德,m,hā lè dé
+Harold,阿豪德,m,ā háo dé
+Harriet,哈莉特,f,hā lì tè
+Harrison,哈里森,m,hā lǐ sēn
+Harry,哈利,m,hā lì
+Harry,哈里,m,hā lǐ
+Harvey,哈威,m,hā wēi
+Hassan,哈桑,m,hā sāng
+Hayden,海登,m,hǎi dēng
+Hayley,海莉,f,hǎi lì
+Hazel,海柔尔,f,hǎi róu ěr
+Heather,希瑟,f,xī sè
+Hedda,赫达,f,hè dá
+Hedy,赫蒂,f,hè dì
+Heidi,海蒂,f,hǎi dì
+Heidy,海蒂,f,hǎi dì
+Helen,海伦,f,hǎi lún
+Heloise,海洛伊丝,f,hǎi luò yī sī
+Henri,亨利,m,hēng lì
+Henry,亨利,m,hēng lì
+Henry,享利,m,xiǎng lì
+Herbert,赫伯特,m,hè bó tè
+Herman,赫尔曼,m,hè ěr màn
+Hermosa,何蒙莎,f,hé méng shā
+Hilary,希拉里,m,xī lā lǐ
+Hilary,希拉瑞莉,f,xī lā ruì lì
+Hilda,希尔达,f,xī ěr dá
+Hiram,海勒,m,hǎi lēi
+Hobart,霍伯特,m,huò bó tè
+Hogan,霍根,m,huò gēn
+Holly,荷莉,f,hé lì
+Homer,荷马,m,hé mǎ
+Honey,汉妮,f,hàn nī
+Horace,哈瑞斯,m,hā ruì sī
+Howar,好尔德,m,hǎo ěr dé
+Howard,霍华德,m,huò huá dé
+Hubert,休伯特,m,xiū bó tè
+Hubery,休伯特,m,xiū bó tè
+Hudson,哈德森,m,hā dé sēn
+Hugh,修,m,xiū
+Hugo,雨果,m,yǔ guǒ
+Hulda,胡达,f,hú dá
+Humphrey,韩弗理,m,hán fú lǐ
+Hunter,汉特,m,hàn tè
+Hyman,海曼,m,hǎi màn
+Iain,伊恩,m,yī ēn
+Ian,伊恩,m,yī ēn
+Iana,娅娜,f,yà nà
+Ianis,伊安尼斯,m,yī ān ní sī
+Iban,伊邦,m,yī bāng
+Ibrahim,易卜拉辛,m,yì bo lā xīn
+Ida,埃达,f,āi dá
+Ilan,伊兰,m,yī lán
+Ilana,依拉娜,f,yī lā nà
+Ilhan,伊兰,m,yī lán
+Ilias,伊利亚斯,m,yī lì yà sī
+Ilona,伊罗娜,f,yī luō nà
+Ina,艾娜,f,ài nà
+Ingemar,英格马,m,yīng gé mǎ
+Ingram,英格兰姆,m,yīng gé lán mǔ
+Ingrid,英格丽,f,yīng gé lì
+Ira,艾勒,m,ài lēi
+Irene,艾琳,f,ài lín
+Irene,伊琳娜,f,yī lín nà
+Irina,伊莉娜,f,yī lì nà
+Iris,爱莉丝,f,ài lì sī
+Irma,伊尔玛,f,yī ěr mǎ
+Irma,艾尔玛,f,ài ěr mǎ
+Isaac,艾萨克,m,ài sà kè
+Isabel,伊莎蓓尔,f,yī shā bèi ěr
+Isabell,伊萨贝,f,yī sà bèi
+Isabella,伊萨贝拉,f,yī sà bèi lā
+Isidore,伊西多,m,yī xī duō
+Isis,伊西丝,m,yī xī sī
+Ivan,伊万,m,yī wàn
+Ivan,艾凡,m,ài fán
+Ives,艾维斯,m,ài wéi sī
+Ivy,艾薇,f,ài wēi
+Jack,杰克,m,jié kè
+Jackie,杰姬,f,jié jī
+Jackie,杰克,m,jié kè
+Jacklyn,杰奎琳,f,jié kuí lín
+Jacky,杰克,m,jié kè
+Jacob,雅各,m,yǎ gè
+Jacob,雅各布,m,yǎ gè bù
+Jacqueline,杰奎琳,f,jié kuí lín
+Jacquie,贾奇,f,jiǎ qí
+Jade,贾德,f,jiǎ dé
+Jake,杰克,m,jié kè
+James,詹姆士,m,zhān mǔ shì
+James,詹姆斯,m,zhān mǔ sī
+Jamie,婕咪,f,jié mī
+Jamie,杰米,f,jié mǐ
+Jane,珍,f,zhēn
+Jane,简,f,jiǎn
+Janet,珍妮特,f,zhēn nī tè
+Janice,珍尼丝,f,zhēn ní sī
+Janice,詹妮丝,f,zhān nī sī
+Janick,贾尼克,m,jiǎ ní kè
+Janne,贾娜,m,jiǎ nà
+Jared,杰瑞德,m,jié ruì dé
+Jason,杰森,m,jié sēn
+Jay,杰,m,jié
+Jayson,杰森,m,jié sēn
+Jean,琴,f,qín
+Jeanette,珍妮特,f,zhēn nī tè
+Jeanine,杰宁,f,jié níng
+Jeannine,杰宁,f,jié níng
+Jeff,杰夫,m,jié fū
+Jefferson,杰斐逊,m,jié fěi xùn
+Jeffrey,杰佛瑞,m,jié fú ruì
+Jenna,珍娜,f,zhēn nà
+Jennifer,珍尼佛,f,zhēn ní fú
+Jennifer,珍尼弗,f,zhēn ní fú
+Jenny,珍妮,f,zhēn nī
+Jeremy,杰勒米,m,jié lēi mǐ
+Jeremy,杰瑞米,m,jié ruì mǐ
+Jerome,哲罗姆,m,zhé luō mǔ
+Jerome,杰罗姆,m,jié luō mǔ
+Jerrod,杰罗德,m,jié luō dé
+Jerry,杰理,m,jié lǐ
+Jerry,杰里,m,jié lǐ
+Jeshua,约书亚,m,yuē shū yà
+Jess,杰斯,m,jié sī
+Jesse,杰西,m,jié xī
+Jessica,杰西卡,f,jié xī kǎ
+Jessica,杰西嘉,f,jié xī jiā
+Jessie,婕西,f,jié xī
+Jessie,杰西,m,jié xī
+Jesus,耶稣,m,yé sū
+Jill,姬儿,f,jī ér
+Jill,吉尔,m,jí ěr
+Jilly,吉利,m,jí lì
+Jim,吉姆,m,jí mǔ
+Jimi,吉米,m,jí mǐ
+Jimmy,吉米,m,jí mǐ
+Jinny,吉妮,f,jí nī
+Jo,乔,f,qiáo
+Jo,乔,m,qiáo
+Joan,琼,f,qióng
+Joanna,乔安娜,f,qiáo ān nà
+Joanne,乔安,f,qiáo ān
+Joanne,希伯来,f,xī bó lái
+Jocelin,乔斯林,m,qiáo sī lín
+Jocelyn,贾思琳,f,jiǎ sī lín
+Jocelyn,乔斯林,m,qiáo sī lín
+Jodie,乔蒂,f,qiáo dì
+Jodie,朱迪,f,zhū dí
+Joe,乔,m,qiáo
+Joel,乔尔,m,qiáo ěr
+Joey,乔伊,m,qiáo yī
+Johan,约翰,m,yuē hàn
+Johann,乔安,m,qiáo ān
+Johanna,约翰娜,f,yuē hàn nà
+John,约翰,m,yuē hàn
+Johnny,强尼,m,qiáng ní
+Jonas,乔纳斯,m,qiáo nà sī
+Jonas,琼纳斯,m,qióng nà sī
+Jonathan,乔纳森,m,qiáo nà sēn
+Jonathan,强纳生,m,qiáng nà shēng
+Jordan,乔丹,m,qiáo dān
+Joris,乔里斯,m,qiáo lǐ sī
+Joseph,约瑟夫,m,yuē sè fū
+Josephine,约瑟芬,f,yuē sè fēn
+Joshua,乔休尔,m,qiáo xiū ěr
+Joshua,约书亚,m,yuē shū yà
+Joss,乔斯,m,qiáo sī
+Joy,乔伊,f,qiáo yī
+Joyce,乔伊斯,f,qiáo yī sī
+Joyce,乔艾斯,f,qiáo ài sī
+Joyce,乔伊斯,m,qiáo yī sī
+Judith,朱蒂斯,f,zhū dì sī
+Judith,朱迪思,f,zhū dí sī
+Judy,朱蒂,f,zhū dì
+Julia,朱丽娅,f,zhū lì yà
+Julia,朱莉娅,f,zhū lì yà
+Julian,朱利安,m,zhū lì ān
+Julie,朱丽,f,zhū lì
+Julie,朱莉,f,zhū lì
+Juliet,朱丽叶,f,zhū lì yè
+Julius,朱利尔斯,m,zhū lì ěr sī
+June,朱恩,f,zhū ēn
+Junior,朱尼奥尔,m,zhū ní ào ěr
+Justin,贾斯丁,m,jiǎ sī dīng
+Justin,贾斯汀,m,jiǎ sī tīng
+Justine,贾斯汀,f,jiǎ sī tīng
+Kaden,卡登,m,kǎ dēng
+Kaitlin,凯特琳,f,kǎi tè lín
+Kama,卡玛,f,kǎ mǎ
+Kara,卡拉,f,kǎ lā
+Karen,凯伦,f,kǎi lún
+Karen,凯琳,f,kǎi lín
+Karianne,卡丽安,f,kǎ lì ān
+Karina,卡莉娜,f,kǎ lì nà
+Kassandra,卡桑德拉,f,kǎ sāng dé lā
+Katalina,卡塔丽娜,f,kǎ tǎ lì nà
+Kate,凯特,f,kǎi tè
+Katherine,凯瑟琳,f,kǎi sè lín
+Kathleen,凯瑟琳,f,kǎi sè lín
+Katie,凯蒂,f,kǎi dì
+Katrina,凯特琳娜,f,kǎi tè lín nà
+Katy,凯蒂,f,kǎi dì
+Kay,凯伊,f,kǎi yī
+Kayla,凯拉,f,kǎi lā
+Keegan,凯甘,m,kǎi gān
+Keira,凯拉,f,kǎi lā
+Keith,凯斯,m,kǎi sī
+Keith,基斯,m,jī sī
+Kelly,凯莉,f,kǎi lì
+Kelly,凯利,m,kǎi lì
+Kelly,凯莉盖,f,kǎi lì gài
+Kelsey,凯尔塞,f,kǎi ěr sāi
+Ken,肯恩,m,kěn ēn
+Kennedy,甘乃迪,m,gān nǎi dí
+Kenneth,肯尼士,m,kěn ní shì
+Kenneth,肯尼斯,m,kěn ní sī
+Kent,肯特,m,kěn tè
+Kerr,科尔,m,kē ěr
+Kerry,凯瑞,m,kǎi ruì
+Kerry-Anne,凯莉安,f,kǎi lì ān
+Kerwin,科尔温,m,kē ěr wēn
+Kevin,凯文,m,kǎi wén
+Kim,金姆,m,jīn mǔ
+Kimberley,金伯利,f,jīn bó lì
+Kimberley,金百莉,f,jīn bǎi lì
+King,金,m,jīn
+Kira,琦拉,f,qí lā
+Kirk,科克,m,kē kè
+Kitty,吉蒂,f,jí dì
+Kristie,克莉斯蒂,f,kè lì sī dì
+Kristin,克里斯廷,f,kè lǐ sī tíng
+Kristina,克里斯蒂娜,f,kè lǐ sī dì nà
+Kristine,克莉斯汀,f,kè lì sī tīng
+Kristy,克里斯蒂,f,kè lǐ sī dì
+Kurt,库尔特,m,kù ěr tè
+Kyle,凯勒,m,kǎi lēi
+Kyle,凯尔,m,kǎi ěr
+Lambert,蓝伯特,m,lán bó tè
+Lance,兰斯,m,lán sī
+Lance,蓝斯,m,lán sī
+Larry,劳瑞,m,láo ruì
+Laura,劳拉,f,láo lā
+Laurel,萝瑞尔,f,luó ruì ěr
+Lauren,萝伦,f,luó lún
+Laurene,劳伦,f,láo lún
+Laurie,萝莉,f,luó lì
+Lawrence,劳伦斯,m,láo lún sī
+Layla,蕾拉,f,lěi lā
+Lee,李,f,lǐ
+Leif,列夫,m,liè fū
+Leila,莉拉,f,lì lā
+Len,伦恩,m,lún ēn
+Lena,莉娜,f,lì nà
+Lennon,蓝侬,m,lán nóng
+Lenny,蓝尼,m,lán ní
+Leo,利奥,m,lì ào
+Leona,利昂娜,f,lì áng nà
+Leona,莉安娜,f,lì ān nà
+Leonard,伦纳德,m,lún nà dé
+Leopold,利奥波德,m,lì ào bō dé
+Les,勒斯,m,lēi sī
+Lesley,雷思丽,f,léi sī lì
+Leslie,莱丝莉,f,lái sī lì
+Lester,里斯特,m,lǐ sī tè
+Letitia,莉蒂西雅,f,lì dì xī yǎ
+Levi,李维,m,lǐ wéi
+Lewis,路易斯,m,lù yì sī
+Liam,利亚姆,m,lì yà mǔ
+Libby,莉碧,f,lì bì
+Lila,莉拉,f,lì lā
+Liliane,莉莉安,f,lì lì ān
+Lilith,莉莉斯,f,lì lì sī
+Lillian,丽莲,f,lì lián
+Lilly,莉莉,f,lì lì
+Lily-Rose,莉莉罗斯,f,lì lì luō sī
+Lina,莉娜,f,lì nà
+Linda,琳达,f,lín dá
+Lindsay,林赛,f,lín sài
+Lionel,赖昂内尔,m,lài áng nèi ěr
+Lisa,丽莎,f,lì shā
+Lisa,莉萨,f,lì sà
+Lise,丽丝,f,lì sī
+Liz,莉斯,f,lì sī
+Lola,罗拉,f,luō lā
+Lorene,劳伦,f,láo lún
+Lorette,罗瑞德,f,luō ruì dé
+Lorianne,劳丽安,f,láo lì ān
+Lorraine,洛兰,f,luò lán
+Lou,路,m,lù
+Louie,路易,m,lù yì
+Louis,路易士,m,lù yì shì
+Louise,璐易丝,f,lù yì sī
+Louise,路易丝,f,lù yì sī
+Loyce,罗伊丝,f,luō yī sī
+Lucas,卢卡斯,m,lú kǎ sī
+Lucia,露茜娅,f,lù qiàn yà
+Lucien,陆斯恩,m,lù sī ēn
+Lucy,露西,f,lù xī
+Luigi,路易吉,m,lù yì jí
+Luke,卢克,m,lú kè
+Luna,璐娜,f,lù nà
+Luther,路德,m,lù dé
+Lydia,莉蒂娅,f,lì dì yà
+Lydia,莉迪亚,f,lì dí yà
+Lyla,莉拉,f,lì lā
+Lynda,琳达,f,lín dá
+Lyndon,林顿,m,lín dùn
+Lynette,丽奈特,f,lì nài tè
+Lynn,琳,f,lín
+Lynn,林,m,lín
+Lynne,琳,f,lín
+Lysa,丽莎,f,lì shā
+Mabel,玛佩尔,f,mǎ pèi ěr
+Madeleine,玛德琳,f,mǎ dé lín
+Madeline,玛德琳,f,mǎ dé lín
+Madge,玛琪,f,mǎ qí
+Madison,麦迪逊,f,mài dí xùn
+Mag,麦格,f,mài gé
+Magdalena,玛格达雷娜,f,mǎ gé dá léi nà
+Magee,麦基,m,mài jī
+Maggie,玛吉,f,mǎ jí
+Maggy,玛吉,f,mǎ jí
+Malcolm,麦尔肯,m,mài ěr kěn
+Malcolm,马尔科姆,m,mǎ ěr kē mǔ
+Malorie,玛罗丽,f,mǎ luō lì
+Mamie,梅蜜,f,méi mì
+Mandel,曼德尔,m,màn dé ěr
+Mandy,曼蒂,f,màn dì
+Mani,玛妮,f,mǎ nī
+Manuel,曼努埃尔,m,màn nǔ āi ěr
+Marcia,玛西亚,f,mǎ xī yà
+Marcus,马卡斯,m,mǎ kǎ sī
+Marcus,马尔库斯,m,mǎ ěr kù sī
+Margaret,玛格丽特,f,mǎ gé lì tè
+Margareth,玛格蕾斯,f,mǎ gé lěi sī
+Marguerite,玛格丽特,f,mǎ gé lì tè
+Maria,玛丽亚,f,mǎ lì yà
+Marian,玛丽安,f,mǎ lì ān
+Marianna,玛丽安娜,f,mǎ lì ān nà
+Marico,马里奥,m,mǎ lǐ ào
+Marina,玛丽娜,f,mǎ lì nà
+Marina,马丽娜,f,mǎ lì nà
+Marisa,玛丽莎,f,mǎ lì shā
+Marjorie,玛乔丽,f,mǎ qiáo lì
+Mark,马克,m,mǎ kè
+Marlene,玛琳,f,mǎ lín
+Marlon,马伦,m,mǎ lún
+Marsh,玛希,m,mǎ xī
+Marshall,马歇尔,m,mǎ xiē ěr
+Martha,玛莎,f,mǎ shā
+Martha,马莎,f,mǎ shā
+Martin,马丁,m,mǎ dīng
+Martina,玛蒂娜,f,mǎ dì nà
+Marvin,马文,m,mǎ wén
+Mary,玛丽,f,mǎ lì
+Mary-Lou,玛丽·璐,f,mǎ lì·lù
+Maryanne,玛丽安,f,mǎ lì ān
+Marylise,玛丽丽丝,f,mǎ lì lì sī
+Maryse,马瑞赛,f,mǎ ruì sài
+Mathis,玛希斯,f,mǎ xī sī
+Mathis,玛希斯,m,mǎ xī sī
+Matt,马特,m,mǎ tè
+Matthew,马休,m,mǎ xiū
+Matthew,马修,m,mǎ xiū
+Maud,穆得,f,mù dé
+Maud,茉德,f,mò dé
+Maureen,穆琳,f,mù lín
+Maurice,摩里斯,m,mó lǐ sī
+Mavis,梅薇思,f,méi wēi sī
+Max,马克斯,m,mǎ kè sī
+Maximus,马克思姆斯,m,mǎ kè sī mǔ sī
+Maxine,玛可欣,f,mǎ kě xīn
+Maxwell,麦克斯韦,m,mài kè sī wéi
+Maxwell,麦斯威尔,m,mài sī wēi ěr
+May,梅,f,méi
+Maya,玛雅,f,mǎ yǎ
+Mayleen,梅琳,f,méi lín
+Maylene,梅莲,f,méi lián
+Meaghan,米甘,m,mǐ gān
+Meg,梅格,f,méi gé
+Megan,梅根,f,méi gēn
+Melany,梅兰妮,f,méi lán nī
+Melba,梅尔巴,f,méi ěr bā
+Melinda,美莲达,f,měi lián dá
+Melissa,蒙莉萨,f,méng lì sà
+Melody,梅洛迪,f,méi luò dí
+Melvin,梅尔文,m,méi ěr wén
+Meredith,马勒第兹,m,mǎ lēi dì zī
+Merle,莫尔,m,mò ěr
+Merlin,莫林,m,mò lín
+Meroy,玛希,f,mǎ xī
+Merry,梅莉,f,méi lì
+Meryl,梅丽尔,f,méi lì ěr
+Mia,米娅,f,mǐ yà
+Michael,麦克,m,mài kè
+Michael,麦克尔,m,mài kè ěr
+Michaela,米凯拉,f,mǐ kǎi lā
+Michaelia,蜜雪莉雅,f,mì xuě lì yǎ
+Michell,米契尔,m,mǐ qì ěr
+Michelle,米歇尔,f,mǐ xiē ěr
+Mick,密克,m,mì kè
+Mickey,米基,m,mǐ jī
+Mignon,蜜妮安,f,mì nī ān
+Mike,麦克,m,mài kè
+Mildred,穆得莉,f,mù dé lì
+Milena,米蕾娜,f,mǐ lěi nà
+Miles,麦尔斯,m,mài ěr sī
+Milo,米路,m,mǐ lù
+Mina,米娜,f,mǐ nà
+Minna,米娜,f,mǐ nà
+Mirabelle,蜜拉贝儿,f,mì lā bèi ér
+Miranda,米兰达,f,mǐ lán dá
+Miriam,蜜莉恩,f,mì lì ēn
+Mitchell,米切尔,m,mǐ qiè ěr
+Modesty,摩黛丝提,f,mó dài sī tí
+Moira,茉伊拉,f,mò yī lā
+Molly,茉莉,f,mò lì
+Mona,梦娜,f,mèng nà
+Mona,蒙娜,f,méng nà
+Monica,莫妮卡,f,mò nī kǎ
+Monroe,门罗,m,mén luō
+Montague,曼特裘,m,màn tè qiú
+Mony,莫尼,f,mò ní
+Moore,莫尔,m,mò ěr
+Moreen,莫琳,f,mò lín
+Morgan,摩根,m,mó gēn
+Morgan,摩尔根,m,mó ěr gēn
+Morissette,莫里赛特,f,mò lǐ sài tè
+Mortimer,摩帝马,m,mó dì mǎ
+Morton,摩顿,m,mó dùn
+Moses,摩西,m,mó xī
+Muriel,穆丽儿,f,mù lì ér
+Muriel,穆丽尔,f,mù lì ěr
+Murphy,摩菲,m,mó fēi
+Murray,莫雷,m,mò léi
+Myra,玛拉,f,mǎ lā
+Myriam,米里安,f,mǐ lǐ ān
+Myrna,蜜尔娜,f,mì ěr nà
+Myron,麦伦,m,mài lún
+Nadia,娜迪娅,f,nà dí yà
+Nadina,纳迪娜,f,nà dí nà
+Nadine,娜丁,f,nà dīng
+Nancy,南希,f,nán xī
+Nancy,南茜,f,nán qiàn
+Naomi,纳奥米,f,nà ào mǐ
+Nat,纳特,m,nà tè
+Natalie,娜塔莉,f,nà tǎ lì
+Natalie,纳塔利,f,nà tǎ lì
+Natasha,娜塔莎,f,nà tǎ shā
+Nathan,内森,m,nèi sēn
+Nathan,奈登,m,nài dēng
+Nathaniel,奈宝尼尔,m,nài bǎo ní ěr
+Natividad,娜提雅维达,f,nà tí yǎ wéi dá
+Neil,尼尔,m,ní ěr
+Nelly,内丽,f,nèi lì
+Nelson,尼尔森,m,ní ěr sēn
+Newman,纽曼,m,niǔ màn
+Nicholas,尼克勒斯,m,ní kè lēi sī
+Nick,尼克,m,ní kè
+Nicola,妮可拉,f,nī kě lā
+Nicolas,尼古拉斯,m,ní gǔ lā sī
+Nicole,妮可,f,nī kě
+Nicole,尼科尔,f,ní kē ěr
+Nigel,奈哲尔,m,nài zhé ěr
+Nikita,尼琦塔,f,ní qí tǎ
+Nina,妮娜,f,nī nà
+Nishta,妮什塔,f,nī shén tǎ
+Noa,诺阿,f,nuò ā
+Noah,诺亚,m,nuò yà
+Noah,诺阿,m,nuò ā
+Noel,诺尔,m,nuò ěr
+Noelle,诺尔,f,nuò ěr
+Nora,诺拉,f,nuò lā
+Norah,诺拉,f,nuò lā
+Nori,诺丽,f,nuò lì
+Norma,诺玛,f,nuò mǎ
+Norman,诺曼,m,nuò màn
+Norton,来自南方村落的人,m,lái zì nán fāng cūn luò de rén
+Novia,诺维雅,f,nuò wéi yǎ
+Nydia,妮蒂亚,f,nī dì yà
+Octavia,奥克塔薇尔,f,ào kè tǎ wēi ěr
+Odelette,奥蒂列特,f,ào dì liè tè
+Odelia,奥蒂莉亚,f,ào dì lì yà
+Ogden,欧格登,m,ōu gé dēng
+Olga,欧尔佳,f,ōu ěr jiā
+Olive,奥丽芙,f,ào lì fú
+Olive,奥利维,f,ào lì wéi
+Oliver,奥利佛,m,ào lì fú
+Oliver,奥利弗,m,ào lì fú
+Olivia,奥丽薇亚,f,ào lì wēi yà
+Olivia,奥利维亚,f,ào lì wéi yà
+Omar,奥玛,m,ào mǎ
+Ophelia,奥菲莉亚,f,ào fēi lì yà
+Ophelia,欧菲丽娅,f,ōu fēi lì yà
+Orville,奥利尔,m,ào lì ěr
+Osborn,奥斯本,m,ào sī běn
+Oscar,奥斯卡,m,ào sī kǎ
+Oswald,奥斯维得,m,ào sī wéi dé
+Otis,奥狄斯,m,ào dí sī
+Otto,奥特,m,ào tè
+Owen,欧恩,m,ōu ēn
+Owen,欧文,m,ōu wén
+Paddy,培迪,m,péi dí
+Pag,佩格,f,pèi gé
+Page,蓓姬,f,bèi jī
+Page,裴吉,m,péi jí
+Pam,帕姆,f,pà mǔ
+Pamela,帕梅拉,f,pà méi lā
+Pamela,帕米拉,f,pà mǐ lā
+Pandora,潘多拉,f,pān duō lā
+Parker,帕克,m,pà kè
+Parker,派克,m,pài kè
+Patrice,帕特里斯,m,pà tè lǐ sī
+Patricia,帕特里夏,f,pà tè lǐ xià
+Patricia,派翠西亚,f,pài cuì xī yà
+Patrick,派翠克,m,pài cuì kè
+Patris,帕特里斯,m,pà tè lǐ sī
+Patsy,帕特茜,f,pà tè qiàn
+Paul,保罗,m,bǎo luō
+Paula,宝拉,f,bǎo lā
+Paula,赛拉,f,sài lā
+Pauline,宝林,f,bǎo lín
+Payne,派恩,m,pài ēn
+Pear,芘尔,f,pí ěr
+Pearl,佩儿,f,pèi ér
+Pearl,珍珠,f,zhēn zhū
+Pedro,佩德罗,m,pèi dé luō
+Peggy,佩吉,f,pèi jí
+Penelope,佩内洛普,f,pèi nèi luò pǔ
+Penny,佩妮,f,pèi nī
+Penny,潘妮,f,pān nī
+Perry,佩瑞,m,pèi ruì
+Perry,斐瑞,m,fěi ruì
+Pete,皮特,m,pí tè
+Peter,彼得,m,bǐ dé
+Phil,菲尔,m,fēi ěr
+Philip,菲力浦,m,fēi lì pǔ
+Philippe,菲力浦,m,fēi lì pǔ
+Phillipe,菲力浦,m,fēi lì pǔ
+Phoebe,菲碧,f,fēi bì
+Phoenix,菲妮克丝,f,fēi nī kè sī
+Phoenix,菲尼克斯,f,fēi ní kè sī
+Phoenix,菲尼克斯,m,fēi ní kè sī
+Phyllis,菲丽丝,f,fēi lì sī
+Pierce,皮尔斯,m,pí ěr sī
+Polly,珀莉,f,pò lì
+Poppy,波比,f,bō bǐ
+Porter,波特,m,bō tè
+Prima,普莉玛,f,pǔ lì mǎ
+Primo,普利莫,m,pǔ lì mò
+Priscilla,普里西拉,f,pǔ lǐ xī lā
+Prudence,普鲁登丝,f,pǔ lǔ dēng sī
+Prudence,普鲁登斯,f,pǔ lǔ dēng sī
+Queena,昆娜,f,kūn nà
+Quentin,昆汀,m,kūn tīng
+Quentin,昆特,m,kūn tè
+Quincy,昆西,m,kūn xī
+Quinn,昆,m,kūn
+Quintina,昆蒂娜,f,kūn dì nà
+Quintion,昆顿,m,kūn dùn
+Rachael,蕾切尔,f,lěi qiè ěr
+Rachel,瑞琪儿,f,ruì qí ér
+Rachel,蕾切尔,f,lěi qiè ěr
+Rachel,雷契尔,m,léi qì ěr
+Rae,瑞伊,f,ruì yī
+Rafael,拉斐尔,m,lā fěi ěr
+Ralap,雷尔夫,m,léi ěr fū
+Ralph,拉尔夫,m,lā ěr fū
+Ramon,拉蒙,m,lā méng
+Randall,兰道尔,m,lán dào ěr
+Randolph,蓝道夫,m,lán dào fū
+Randy,兰迪,m,lán dí
+Ray,雷,m,léi
+Raymond,雷蒙德,m,léi méng dé
+Rayner,雷纳,m,léi nà
+Rebecca,丽蓓卡,f,lì bèi kǎ
+Rebecca,丽贝卡,f,lì bèi kǎ
+Rebeckah,丽贝卡,f,lì bèi kǎ
+Rebekka,丽贝卡,f,lì bèi kǎ
+Reed,列得,m,liè dé
+Reg,雷哲,m,léi zhé
+Regan,雷根,m,léi gēn
+Regina,蕾佳娜,f,lěi jiā nà
+Regina,蕾吉娜,f,lěi jí nà
+Reginald,雷吉诺德,m,léi jí nuò dé
+Reidar,瑞达,m,ruì dá
+Rejane,蕾珍,f,lěi zhēn
+Renan,勒南,m,lēi nán
+Renata,蕾娜塔,f,lěi nà tǎ
+Renee,蕾妮,f,lěi nī
+René,勒内,m,lēi nèi
+Reuben,鲁宾,m,lǔ bīn
+Rex,雷克斯,m,léi kè sī
+Reynald,雷纳尔德,m,léi nà ěr dé
+Rhianne,莉安,f,lì ān
+Rhys,莱斯,m,lái sī
+Richard,理查,m,lǐ chá
+Richie,里奇,m,lǐ qí
+Rick,里克,m,lǐ kè
+Ricky,瑞奇,m,ruì qí
+Rico,利筘,m,lì kòu
+Riley,莱利,m,lái lì
+Ringo,林戈,m,lín gē
+Rita,莉塔,f,lì tǎ
+Rita,莉达,f,lì dá
+Riva,莉娃,f,lì wá
+Roan,罗安,m,luō ān
+Robbie,罗比,m,luō bǐ
+Robert,罗伯特,m,luō bó tè
+Roberta,罗伯塔,f,luō bó tǎ
+Roberto,罗伯托,m,luō bó tuō
+Robin,罗宾,m,luō bīn
+Robinson,罗宾逊,m,luō bīn xùn
+Robyn,罗宾,m,luō bīn
+Roch,洛克,m,luò kè
+Rock,洛克,m,luò kè
+Rod,罗德,m,luō dé
+Roderick,罗得里克,m,luō dé lǐ kè
+Rodney,罗德尼,m,luō dé ní
+Roger,罗杰,m,luō jié
+Roland,罗兰,m,luō lán
+Roman,罗曼,m,luō màn
+Romeo,罗密欧,m,luō mì ōu
+Romy,罗密,f,luō mì
+Ron,罗恩,m,luō ēn
+Ronald,罗纳德,m,luō nà dé
+Ronald,罗奈尔得,m,luō nài ěr dé
+Ronan,罗南,m,luō nán
+Ronnie,罗尼,m,luō ní
+Ronny,罗尼,m,luō ní
+Rory,罗里,m,luō lǐ
+Rosa,萝莎,f,luó shā
+Rosalind,罗莎琳德,f,luō shā lín dé
+Rose,罗丝,f,luō sī
+Rose,罗斯,f,luō sī
+Roselyn,罗丝雷恩,f,luō sī léi ēn
+Rosemary,鲁思玛丽,f,lǔ sī mǎ lì
+Rosie,萝西,f,luó xī
+Ross,罗斯,m,luō sī
+Rosy,萝西,f,luó xī
+Roxana,罗克莎娜,f,luō kè shā nà
+Roxanne,罗克珊,f,luō kè shān
+Roy,罗一,m,luō yī
+Roy,罗伊,m,luō yī
+Ruby,露比,f,lù bǐ
+Rudolf,鲁道夫,m,lǔ dào fū
+Rudy,鲁迪,m,lǔ dí
+Rupert,鲁伯特,m,lǔ bó tè
+Ruth,露丝,f,lù sī
+Ruth,鲁思,f,lǔ sī
+Ryan,莱安,m,lái ān
+Ryan,里安,m,lǐ ān
+Sabina,莎碧娜,f,shā bì nà
+Sabine,萨宾,f,sà bīn
+Sabrina,莎柏琳娜,f,shā bǎi lín nà
+Sabrina,萨布丽娜,f,sà bù lì nà
+Sadie,萨蒂,f,sà dì
+Sally,莎莉,f,shā lì
+Salomay,莎乐美,f,shā lè měi
+Salome,莎洛姆,f,shā luò mǔ
+Sam,山姆,m,shān mǔ
+Samantha,莎曼撤,f,shā màn chè
+Sampson,辛普森,m,xīn pǔ sēn
+Samuel,撒姆尔,m,sā mǔ ěr
+Samuel,萨谬尔,m,sà miù ěr
+Sandra,桑德拉,f,sāng dé lā
+Sandra,珊多拉,f,shān duō lā
+Sandy,仙蒂,f,xiān dì
+Sandy,桑迪,f,sāng dí
+Sandy,山迪,m,shān dí
+Sanny,萨妮,f,sà nī
+Sara,莎拉,f,shā lā
+Sarah,莎拉,f,shā lā
+Sarah,赛拉,f,sài lā
+Satina,萨蒂娜,f,sà dì nà
+Savannah,萨凡纳,f,sà fán nà
+Saxon,撒克逊,m,sā kè xùn
+Scarlett,斯嘉丽,f,sī jiā lì
+Scott,史考特,m,shǐ kǎo tè
+Scott,斯考特,m,sī kǎo tè
+Sean,肖恩,m,xiào ēn
+Sebastian,希巴斯汀,m,xī bā sī tīng
+Sebastian,赛巴斯蒂安,m,sài bā sī dì ān
+Sebastiane,莎芭丝提妮,f,shā bā sī tí nī
+Selena,塞蕾娜,f,sāi lěi nà
+Selena,萨琳娜,f,sà lín nà
+Seleste,西莱斯特,f,xī lái sī tè
+Serena,塞雷娜,f,sāi léi nà
+Sergio,塞尔吉奥,m,sāi ěr jí ào
+Setlla,丝特勒,f,sī tè lēi
+Shaleen,沙琳,f,shā lín
+Shana,莎娜,f,shā nà
+Shanie,沙妮,f,shā nī
+Shannen,莎侬,f,shā nóng
+Shannon,莎侬,f,shā nóng
+Sharon,沙伦,f,shā lún
+Sharon,雪伦,f,xuě lún
+Shary,莎莉,f,shā lì
+Shatoya,赛图雅,f,sài tú yǎ
+Shauna,邵娜,f,shào nà
+Shawn,肖恩,f,xiào ēn
+Sheena,茜娜,f,qiàn nà
+Sheila,希拉,f,xī lā
+Sheila,晒垃,f,shài lā
+Shelby,谢尔碧,f,xiè ěr bì
+Shelley,谢莉,f,xiè lì
+Shelly,雪莱,f,xuě lái
+Sherry,雪莉,f,xuě lì
+Shiela,希拉,f,xī lā
+Shirila,什丽拉,f,shén lì lā
+Shirley,雪莉,f,xuě lì
+Sibyl,希贝儿,f,xī bèi ér
+Sid,锡德,m,xī dé
+Sidney,锡得尼,m,xī dé ní
+Sigrid,西格莉德,f,xī gé lì dé
+Silvana,茜尔瓦娜,f,qiàn ěr wǎ nà
+Simon,赛门,m,sài mén
+Simona,席梦娜,f,xí mèng nà
+Simone,茜蒙,f,qiàn méng
+Sloane,斯隆,f,sī lóng
+Smith,史密斯,m,shǐ mì sī
+Sofia,索菲娅,f,suǒ fēi yà
+Solenne,苏莲,f,sū lián
+Solomon,所罗门,m,suǒ luō mén
+Sonia,索尼娅,f,suǒ ní yà
+Sonja,宋雅,f,sòng yǎ
+Sonny,索尼,m,suǒ ní
+Sophia,苏菲亚,f,sū fēi yà
+Sophia,苏菲娅,f,sū fēi yà
+Spencer,史宾杜,m,shǐ bīn dù
+Spring,丝柏凌,f,sī bǎi líng
+Stacey,斯泰西,f,sī tài xī
+Stacey,斯黛茜,f,sī dài qiàn
+Stan,史丹,m,shǐ dān
+Stanford,史丹佛,m,shǐ dān fú
+Stanley,史丹尼,m,shǐ dān ní
+Stefan,斯特凡,m,sī tè fán
+Stefany,斯蒂芬妮,f,sī dì fēn nī
+Stella,斯特拉,f,sī tè lā
+Stephanie,丝特芬妮,f,sī tè fēn nī
+Stephany,斯蒂芬妮,f,sī dì fēn nī
+Stephen,斯蒂芬,m,sī dì fēn
+Steven,史帝文,m,shǐ dì wén
+Steven,史蒂文,m,shǐ dì wén
+Stevie,史蒂夫,m,shǐ dì fū
+Steward,史都华德,m,shǐ dōu huá dé
+Stewart,斯图尔特,m,sī tú ěr tè
+Susan,苏珊,f,sū shān
+Susanna,苏珊娜,f,sū shān nà
+Susie,苏西,f,sū xī
+Suzanne,苏珊,f,sū shān
+Suzel,苏塞,f,sū sāi
+Suzie,苏西,f,sū xī
+Sybelle,希贝,f,xī bèi
+Sylvia,西尔维娅,f,xī ěr wéi yà
+Sylvie,西尔维,f,xī ěr wéi
+Tab,塔伯,m,tǎ bó
+Tabatha,塔芭塔,f,tǎ bā tǎ
+Tabitha,泰贝莎,f,tài bèi shā
+Tamara,塔玛拉,f,tǎ mǎ lā
+Tammy,塔米,f,tǎ mǐ
+Tammy,泰蜜,f,tài mì
+Tania,塔尼娅,f,tǎ ní yà
+Tara,泰拉,f,tài lā
+Tatiana,塔提安娜,f,tǎ tí ān nà
+Taylor,泰勒,m,tài lēi
+Ted,泰德,m,tài dé
+Teresa,泰瑞莎,f,tài ruì shā
+Ternence,泰伦斯,m,tài lún sī
+Terri,泰瑞,m,tài ruì
+Tess,泰丝,f,tài sī
+Thalia,塔莉娅,f,tǎ lì yà
+Theobald,希尔保特,m,xī ěr bǎo tè
+Theodore,西奥多,m,xī ào duō
+Theodore,希欧多尔,m,xī ōu duō ěr
+Thera,席拉,f,xí lā
+Theresa,泰莉萨,f,tài lì sà
+Thomas,汤玛士,m,tāng mǎ shì
+Tia,缇娅,f,tí yà
+Tiffany,蒂凡妮,f,dì fán nī
+Tiffany,蒂法尼,f,dì fǎ ní
+Tiffany,帝福尼,m,dì fú ní
+Tim,堤姆,m,dī mǔ
+Timothy,蒂莫西,m,dì mò xī
+Tina,蒂娜,f,dì nà
+Tobey,托比,f,tuō bǐ
+Toby,托比,m,tuō bǐ
+Tod,托德,m,tuō dé
+Todd,陶德,m,táo dé
+Tom,汤姆,m,tāng mǔ
+Tony,托尼,m,tuō ní
+Tony,汤尼,m,tāng ní
+Tori,托莉,f,tuō lì
+Tracy,翠西,f,cuì xī
+Tracy,特瑞西,m,tè ruì xī
+Treena,特丽娜,f,tè lì nà
+Trevor,特雷弗,m,tè léi fú
+Tricia,特瑞萨,f,tè ruì sà
+Trina,崔娜,f,cuī nà
+Trinity,翠妮缇,f,cuì nī tí
+Trista,翠丝特,f,cuì sī tè
+Troy,特洛伊,m,tè luò yī
+Truda,杜达,f,dù dá
+Truman,杜鲁门,m,dù lǔ mén
+Turner,特纳,m,tè nà
+Tyler,泰勒,m,tài lēi
+Tyrone,泰朗,f,tài lǎng
+Tyrone,泰伦,m,tài lún
+Ula,优拉,f,yōu lā
+Ulysses,尤里西斯,m,yóu lǐ xī sī
+Umberto,翁贝托,m,wēng bèi tuō
+Una,优娜,f,yōu nà
+Upton,阿普顿,m,ā pǔ dùn
+Uriah,尤莱亚,m,yóu lái yà
+Ursula,厄休拉,f,è xiū lā
+Valentina,范伦汀娜,f,fàn lún tīng nà
+Valentine,瓦伦汀,f,wǎ lún tīng
+Valentine,范伦丁,m,fàn lún dīng
+Valentine,范伦铁恩,m,fàn lún tiě ēn
+Valeria,瓦莱里娅,f,wǎ lái lǐ yà
+Valerie,瓦勒莉,f,wǎ lēi lì
+Vanessa,瓦妮莎,f,wǎ nī shā
+Vay,薇,f,wēi
+Venus,维纳斯,f,wéi nà sī
+Vera,维拉,f,wéi lā
+Vergil,维吉尔,m,wéi jí ěr
+Verna,维娜,f,wéi nà
+Verne,佛能,m,fú néng
+Veromca,维隆卡,f,wéi lóng kǎ
+Veronica,维拉妮卡,f,wéi lā nī kǎ
+Veronica,维罗尼卡,f,wéi luō ní kǎ
+Vic,维克,m,wéi kè
+Vicki,薇琪,f,wēi qí
+Vicky,维吉,f,wéi jí
+Vicky,维基,f,wéi jī
+Victor,维克特,m,wéi kè tè
+Victoria,维多利亚,f,wéi duō lì yà
+Vincent,文森,m,wén sēn
+Vincent,文森特,m,wén sēn tè
+Viola,维尔拉,f,wéi ěr lā
+Violet,维尔莉特,f,wéi ěr lì tè
+Virgil,维吉尔,m,wéi jí ěr
+Virginia,维吉妮亚,f,wéi jí nī yà
+Virginia,维吉尼亚,f,wéi jí ní yà
+Vita,维达,f,wéi dá
+Vito,维多,m,wéi duō
+Vivian,卫维恩,m,wèi wéi ēn
+Viviane,维维安,f,wéi wéi ān
+Vivien,维文,f,wéi wén
+Wade,维德,m,wéi dé
+Walker,瓦尔克,m,wǎ ěr kè
+Wallace,华莱士,m,huá lái shì
+Wallis,华莉丝,f,huá lì sī
+Walter,沃尔特,m,wò ěr tè
+Walter,瓦尔特,m,wǎ ěr tè
+Wanda,旺妲,f,wàng dá
+Wanda,旺达,f,wàng dá
+Ward,华德,m,huá dé
+Warner,华纳,m,huá nà
+Wayne,韦恩,m,wéi ēn
+Webb,韦勃,m,wéi bó
+Webster,韦伯斯特,m,wéi bó sī tè
+Wendell,温德尔,m,wēn dé ěr
+Wendy,温蒂,f,wēn dì
+Wendy,温迪,f,wēn dí
+Werner,韦纳尔,m,wéi nà ěr
+Wesley,韦斯利,m,wéi sī lì
+Wilbur,韦尔伯,m,wéi ěr bó
+Wilfried,威尔弗里德,m,wēi ěr fú lǐ dé
+Will,威尔,m,wēi ěr
+William,威廉,m,wēi lián
+Willie,威利,m,wēi lì
+Wilson,威尔逊,m,wēi ěr xùn
+Winfred,威弗列德,m,wēi fú liè dé
+Winifred,威尼弗雷德,f,wēi ní fú léi dé
+Winni,温妮,f,wēn nī
+Winston,温士顿,m,wēn shì dùn
+Woodrow,伍德洛,m,wǔ dé luò
+Wordsworth,渥兹华斯,m,wò zī huá sī
+Wright,莱特,m,lái tè
+Xanthe,桑席,f,sāng xí
+Xavier,赛维尔,m,sài wéi ěr
+Xaviera,赛薇亚拉,f,sài wēi yà lā
+Xenia,芝妮雅,f,zhī nī yǎ
+Yale,耶鲁,m,yé lǔ
+Yanis,亚尼斯,m,yà ní sī
+Yann,雅恩,m,yǎ ēn
+Yasmine,雅斯敏,f,yǎ sī mǐn
+Yedda,耶达,f,yé dá
+Yehudi,耶呼弟,m,yé hū dì
+Yetta,依耶塔,f,yī yé tǎ
+York,约克,m,yuē kè
+Yves,依夫,m,yī fū
+Yvette,依耶芙特,f,yī yé fú tè
+Ylvia,西尔维亚,f,xī ěr wéi yà
+Yvonne,伊芳,f,yī fāng
+Zachary,扎克利,m,zhā kè lì
+Zachary,扎卡里,m,zhā kǎ lǐ
+Zara,莎拉,f,shā lā
+Zebulon,纪伯伦,m,jì bó lún
+Zenobia,丽诺比丽,f,lì nuò bǐ lì
+Zero,苏洛,m,sū luò
+Zoe,佐伊,f,zuǒ yī
+Zoe,若伊,f,ruò yī
+Zona,若娜,f,ruò nà
+Zora,若拉,f,ruò lā

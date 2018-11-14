@@ -90,9 +90,14 @@ def test_edit_distance():
     assert have_diff_tones("ā", "a")
     assert not have_diff_tones("ā", "i")
 
-    assert edit_distance_pinyin("buǒ", "buó") == 0.5-2
+    assert edit_distance_pinyin("buǒ", "buó") == 0.5
     
     print("All tests passed!")
 
 if __name__ == "__main__":
     test_edit_distance()
+    while True:
+        p1 = input("1 >> ")
+        p2 = input("2 >> ")
+        print("Pinyin edit distance is:", edit_distance_pinyin(p1, p2))
+        print("Common Char edit distance is:", edit_distance(p1, p2))

@@ -16,6 +16,7 @@ def is_vowel(sound):
     return sound in ['A', 'E', 'I', 'O', 'U', 'Y']
 
 def closest_IPA(char):
+    print(char)
     smallest_dist = sys.maxsize
     if is_consonant(char):
         closest_sound = '-'
@@ -105,6 +106,7 @@ def baseline(components):
     return "".join(all_chars)
 
 if __name__ == "__main__":
-    components = input("Enter a name: ")
-    res = baseline(components, arp_to_chin, arp_to_chin_df)
-    print(res)
+    while True:
+        components = input("Enter a name: ")
+        res = baseline(components)
+        print(res)
