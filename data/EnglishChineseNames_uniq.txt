@@ -1080,7 +1080,7 @@ Norah,诺拉,f,nuò lā
 Nori,诺丽,f,nuò lì
 Norma,诺玛,f,nuò mǎ
 Norman,诺曼,m,nuò màn
-Norton,来自南方村落的人,m,lái zì nán fāng cūn luò de rén
+Norton,诺顿,m,nuò dùn
 Novia,诺维雅,f,nuò wéi yǎ
 Nydia,妮蒂亚,f,nī dì yà
 Octavia,奥克塔薇尔,f,ào kè tǎ wēi ěr
@@ -1193,7 +1193,7 @@ Rejane,蕾珍,f,lěi zhēn
 Renan,勒南,m,lēi nán
 Renata,蕾娜塔,f,lěi nà tǎ
 Renee,蕾妮,f,lěi nī
-René,勒内,m,lēi nèi
+Rene,勒内,m,lēi nèi
 Reuben,鲁宾,m,lǔ bīn
 Rex,雷克斯,m,léi kè sī
 Reynald,雷纳尔德,m,léi nà ěr dé

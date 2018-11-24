@@ -3,10 +3,19 @@ import os
 from collections import Counter
 import math
 import edit_distance
+import re
+
 
 data_dir = os.path.join("..", "data")
 chinese_names = pd.read_csv(os.path.join(data_dir, "EnglishChineseNames_uniq.txt"))
 
+def normalize(s):
+    """
+    Right now just converts a string to lowercase but could be something more later
+    (such as removing spaces)
+    """
+    s = re.sub(r"([-.·])", r"", s) # remove punctuation that seems to have seeped in (including chinese dash)
+    return s.lower()
 
 def is_vowel(c):
     return c in 'āáǎàaēéěèeīíǐìiōóǒòoūúǔùuǖǘǚǜü'
