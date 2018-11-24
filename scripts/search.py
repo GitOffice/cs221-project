@@ -3,7 +3,7 @@ import search_utils
 
 MAX_PINYIN_SIZE = 6
 
-def find_closest_pinyin(name):
+def find_closest_pinyin(name, do_print):
 
 	unigram_cost = search_utils.create_ucf()
 
@@ -16,7 +16,8 @@ def find_closest_pinyin(name):
 				c, p = unigram_cost(u)
 				pinyin.append(p)
 				cost += c
-			print(pinyin, cost + len(syllables))
+			if do_print:
+                                print(pinyin, cost + len(syllables))
 			return (cost, pinyin)
 
 		syllables[-1] += rest[0]
