@@ -54,7 +54,7 @@ def evaluate_preidctions():
     diff_count = 0
     for row_i, row in all_names.iterrows():
         if row_i % 20 == 0:
-            print("{.2f}% complete".format(row_i/all_names.shape[0]))
+            print("{.2f}% complete".format(100 * row_i/all_names.shape[0]))
         english, _, _, target_pinyin = row
         english = search_utils.normalize(english)
         target_pinyin = ''.join(filter(lambda x: x != ' ', search_utils.normalize(target_pinyin)))
