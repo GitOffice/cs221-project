@@ -79,4 +79,5 @@ if __name__ == "__main__":
         while True:
             name = input("name >> ")
             result = find_closest_pinyin(name)
-            print(result)
+            print(resul
+
