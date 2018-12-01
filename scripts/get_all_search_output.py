@@ -17,8 +17,8 @@ for i in range(len(df["first name"])):
     dl_groundtruth.append(df["pinyin"][i])
 
 # produce output csv file
-df_out = pandas.DataFrame(data={"search_output": dl_input, "ground_truth": dl_groundtruth})
-df_out.to_csv("./TransliterationSearchAndData.csv", sep=',',index=False)
+df_out = pd.DataFrame(data={"search_output": dl_input, "ground_truth": dl_groundtruth})
+df_out.to_csv("./TransliterationSearchAndData.csv", sep=',',index=False, encoding='utf-8-sig')
 
 # print(dl_input)
 # print(dl_groundtruth)
