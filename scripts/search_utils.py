@@ -4,6 +4,7 @@ from collections import Counter
 import math
 import edit_distance
 import re
+import string
 
 
 data_dir = os.path.join("..", "data")
@@ -95,7 +96,32 @@ def test_break_pinyin():
     assert break_pinyin("āndōngní'ào") == "ān dōng ní ào"
     assert break_pinyin("ā bǐ gàiěr") == "ā bǐ gài ěr"
 
+# handle phonetically similar cases
+def phoneme_adjust(eng):            
+    eng = eng.lower()
+    eng = eng.replace('ju', 'zhu')
+    eng = eng.replace('ew', 'iu')
+    eng = eng.replace('r', 'l')
 
+    # get rid of repeating letters
+    for i in range(len(eng)):
+        if i < len(eng) - 1 and eng[i] == eng[i + 1]:
+            eng = eng[0:i] + eng[i + 1:]
+            
+    eng = eng.replace('ia', 'iya')
+    eng = eng.replace('ce', 'si')
+    eng = eng.replace('ci', 'si')
+    eng = eng.replace('ch', 'q')
+    eng = eng.replace('c', 'k')
+    eng = eng.replace('ph', 'f')
+    if eng.count('y') > 1:
+        eng = "".join(reversed("".join(reversed(eng)).replace('y', 'i', 1))) # y is i if at end of string
+    if eng != "" and eng[-1] == 'y':
+        eng = eng[0:len(eng) - 1] + 'i'
+    eng = eng.replace('th', 'x')
+    eng = eng.replace('v', 'w')
+            
+    return eng
 
 
 # inspired from reconstruction assignment
@@ -123,7 +149,8 @@ def create_ucf(pinyins = None):
         else:
             ucs =  math.log(total_unigrams) - math.log(unigram_freqs[p]) # English names dont have tones, so we can just ignore them
 
-        # edit_distance.edit_distance_piyin takes into account tone differences
+        # edit_distance.edit_distance_pinyin takes into account tone differences
+        p = phoneme_adjust(p)
         return min([(edit_distance.edit_distance(p, remove_tone(pinyin)) * ucs, pinyin) for pinyin in unigram_freqs])
         
     return ucf

@@ -21,6 +21,7 @@ def find_closest_pinyin(name, do_print):
             for u in syllables:
                 c, p = unigram_cost(u)
                 pinyin.append(p)
+                c /= len(syllables)
                 cost += c
             if do_print:
                 print(pinyin, cost + len(syllables))
@@ -33,11 +34,12 @@ def find_closest_pinyin(name, do_print):
         cost_keep, s_keep = recurse(syllables_keep, rest[1:])
         syllables[-1] = syllables[-1][:-1]
 
-        #if syllables[0] != "":
-        syllables.append(rest[0])
-        syllables_end = [x for x in syllables]
-        cost_end, s_end = recurse(syllables_end, rest[1:])
-        syllables = syllables[:-1]
+        cost_end, s_end = (0, [])
+        if syllables[0] != "":
+            syllables.append(rest[0])
+            syllables_end = [x for x in syllables]
+            cost_end, s_end = recurse(syllables_end, rest[1:])
+            syllables = syllables[:-1]
 
         result = min((cost_end, s_end), (cost_keep, s_keep))
         cache[hash_sylls] = result
@@ -49,7 +51,7 @@ def find_closest_pinyin(name, do_print):
     return recurse([""], name)
     #return all_actions
 
-def evaluate_preidctions():
+def evaluate_predictions():
     all_names = search_utils.chinese_names
     distance = 0
     diff_count = 0
@@ -74,10 +76,10 @@ def evaluate_preidctions():
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == 'eval':
-        evaluate_preidctions()
+        evaluate_predictions()
     else:
         while True:
             name = input("name >> ")
-            result = find_closest_pinyin(name)
-            print(resul
+            result = find_closest_pinyin(name, True)
+            print(result)
 

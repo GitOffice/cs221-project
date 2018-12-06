@@ -1,3 +1,5 @@
+import search_utils
+
 # Returns the a score representing how similar two strings are
 def edit_distance(str1, str2):
     cache = {}
@@ -13,6 +15,11 @@ def edit_distance(str1, str2):
         # recursive case
         if str1[0] == str2[0]:
             ed = recurse(str1[1:], str2[1:])
+            cache[(str1, str2)] = ed
+            return ed
+        if search_utils.is_vowel(str1[0]) != search_utils.is_vowel(str2[0]):
+            # vowel in place of consonant or vice versa, penalization is higher
+            ed = 2 + recurse(str1[1:], str2[1:])
             cache[(str1, str2)] = ed
             return ed
         else:
