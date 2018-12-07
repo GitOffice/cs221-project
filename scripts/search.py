@@ -21,7 +21,6 @@ def find_closest_pinyin(name, do_print):
             for u in syllables:
                 c, p = unigram_cost(u)
                 pinyin.append(p)
-                c /= len(syllables)
                 cost += c
             if do_print:
                 print(pinyin, cost + len(syllables))
@@ -57,12 +56,13 @@ def evaluate_predictions():
     diff_count = 0
     for row_i, row in all_names.iterrows():
         if row_i % 20 == 0:
-            print("{.2f}% complete".format(100 * row_i/all_names.shape[0]))
+            print("{}% complete".format(100 * row_i/all_names.shape[0]))
         english, _, _, target_pinyin = row
         english = search_utils.normalize(english)
+        english = search_utils.phoneme_adjust(english)
         target_pinyin = ''.join(filter(lambda x: x != ' ', search_utils.normalize(target_pinyin)))
 
-        output_pinyin = ''.join(find_closest_pinyin(english)[1])
+        output_pinyin = ''.join(find_closest_pinyin(english, False)[1])
         if output_pinyin != target_pinyin:
             #print (english, output_pinyin, target_pinyin)
             diff_count += 1
@@ -80,6 +80,7 @@ if __name__ == "__main__":
     else:
         while True:
             name = input("name >> ")
+            name = search_utils.phoneme_adjust(name)
             result = find_closest_pinyin(name, True)
             print(result)
 

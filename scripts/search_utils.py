@@ -113,6 +113,7 @@ def phoneme_adjust(eng):
     eng = eng.replace('ci', 'si')
     eng = eng.replace('ch', 'q')
     eng = eng.replace('c', 'k')
+    eng = eng.replace('ck', 'k')
     eng = eng.replace('ph', 'f')
     if eng.count('y') > 1:
         eng = "".join(reversed("".join(reversed(eng)).replace('y', 'i', 1))) # y is i if at end of string
