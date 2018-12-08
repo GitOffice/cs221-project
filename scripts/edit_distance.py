@@ -17,11 +17,11 @@ def edit_distance(str1, str2):
             ed = recurse(str1[1:], str2[1:])
             cache[(str1, str2)] = ed
             return ed
-        if search_utils.is_vowel(str1[0]) != search_utils.is_vowel(str2[0]):
-            # vowel in place of consonant or vice versa, penalization is higher
-            ed = 2 + recurse(str1[1:], str2[1:])
-            cache[(str1, str2)] = ed
-            return ed
+##        if search_utils.is_vowel(str1[0]) != search_utils.is_vowel(str2[0]):
+##            # vowel in place of consonant or vice versa, penalization is higher
+##            ed = 2 + recurse(str1[1:], str2[1:])
+##            cache[(str1, str2)] = ed
+##            return ed
         else:
             # min of insert into 1, insert into 2, replace
             ed = 1 + min(recurse(str1, str2[1:]), recurse(str1[1:], str2), recurse(str1[1:], str2[1:]))

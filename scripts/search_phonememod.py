@@ -1,12 +1,15 @@
 import search_utils
 import edit_distance
 import sys
+import math
 
 MAX_PINYIN_SIZE = 6
 
 def find_closest_pinyin(name, do_print):
 
     unigram_cost = search_utils.create_ucf()
+    name = search_utils.phoneme_adjust(name)
+    target_syllables = search_utils.expected_syllables(name)
 
     cache = {}
     # iterate through all possible breakings of the name (i.e. powerset of characters)
@@ -22,8 +25,11 @@ def find_closest_pinyin(name, do_print):
                 c, p = unigram_cost(u)
                 pinyin.append(p)
                 cost += c
+            # add cost of syllable length deviation
+            if len(syllables) != math.floor(target_syllables) and len(syllables) != math.ceil(target_syllables):
+                cost += 10 * math.ceil(abs(len(syllables) - target_syllables))
             if do_print:
-                print(pinyin, cost + len(syllables))
+                print(pinyin, cost)
             result = (cost, pinyin)
             cache[hash_sylls] = result
             return result
@@ -33,14 +39,14 @@ def find_closest_pinyin(name, do_print):
         cost_keep, s_keep = recurse(syllables_keep, rest[1:])
         syllables[-1] = syllables[-1][:-1]
 
-        cost_end, s_end = (0, [])
+        cost_end, s_end = (float('inf'), [])
         if syllables[0] != "":
             syllables.append(rest[0])
             syllables_end = [x for x in syllables]
             cost_end, s_end = recurse(syllables_end, rest[1:])
             syllables = syllables[:-1]
 
-        result = min((cost_end, s_end), (cost_keep, s_keep))
+        result = min((cost_keep, s_keep), (cost_end, s_end))
         cache[hash_sylls] = result
         return result
         # else:
@@ -57,9 +63,8 @@ def evaluate_predictions():
     for row_i, row in all_names.iterrows():
         if row_i % 20 == 0:
             print("{}% complete".format(100 * row_i/all_names.shape[0]))
-        english, _, _, target_pinyin = row
+        english, _, _, target_pinyin, _, _, _ = row
         english = search_utils.normalize(english)
-        english = search_utils.phoneme_adjust(english)
         target_pinyin = ''.join(filter(lambda x: x != ' ', search_utils.normalize(target_pinyin)))
 
         output_pinyin = ''.join(find_closest_pinyin(english, False)[1])
@@ -80,7 +85,6 @@ if __name__ == "__main__":
     else:
         while True:
             name = input("name >> ")
-            name = search_utils.phoneme_adjust(name)
             result = find_closest_pinyin(name, True)
             print(result)
 
