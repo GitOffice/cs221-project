@@ -49,7 +49,7 @@ def find_closest_pinyin(name, do_print):
     return recurse([""], name)
     #return all_actions
 
-def evaluate_preidctions():
+def evaluate_predictions():
     all_names = search_utils.chinese_names
     distance = 0
     diff_count = 0
@@ -74,7 +74,7 @@ def evaluate_preidctions():
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == 'eval':
-        evaluate_preidctions()
+        evaluate_predictions()
     else:
         while True:
             name = input("name >> ")

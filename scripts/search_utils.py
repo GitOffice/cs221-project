@@ -8,6 +8,7 @@ import re
 
 data_dir = os.path.join("..", "data")
 chinese_names = pd.read_csv(os.path.join(data_dir, "EnglishChineseNames_uniq.txt"))
+DATA_SIZE = chinese_names.shape[0]
 
 def normalize(s):
     """

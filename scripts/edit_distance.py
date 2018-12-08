@@ -81,6 +81,30 @@ def edit_distance_pinyin(str1, str2):
 
     return recurse(str1, str2) #- common_chars(str1, str2)
 
+#################
+# This isn't used for anything at the moment but might be used for a more phonemic edit distance
+# a = {
+    
+#     'r':['l'],
+#     'v':['f', 'w'],
+
+#     # clusters
+#     'th':['s', 'x', 'z', 'sh'],
+#     'sh':['sh', 'x', 'q']
+
+
+#     # weird things
+#     'c':['k'],
+#     'ci': ['x', 's', 'z'],
+#     'ce': ['x', 's', 'z'],
+#     'g': ['g']
+#     'gi': ['j', 's', 'z'],
+#     'ge': ['j', 's', 'z']
+
+# }
+def edit_distance_sound(str1, str2):
+    pass
+
 def test_edit_distance():
     assert edit_distance("hello", "hell") == 1-3
     assert edit_distance("hello", "hellos") == 1-4
