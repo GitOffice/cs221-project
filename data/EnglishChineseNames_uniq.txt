@@ -1,4 +1,4 @@
-first name,chinese, gender,pinyin
+﻿first name,chinese, gender,pinyin
 Aaron,艾伦,m,ài lún
 Aaron,阿隆,m,ā lóng
 Abbott,艾布特,m,ài bù tè
@@ -653,7 +653,7 @@ Ian,伊恩,m,yī ēn
 Iana,娅娜,f,yà nà
 Ianis,伊安尼斯,m,yī ān ní sī
 Iban,伊邦,m,yī bāng
-Ibrahim,易卜拉辛,m,yì bo lā xīn
+Ibrahim,易卜拉辛,m,yì bō lā xīn
 Ida,埃达,f,āi dá
 Ilan,伊兰,m,yī lán
 Ilana,依拉娜,f,yī lā nà

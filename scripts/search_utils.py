@@ -4,6 +4,7 @@ from collections import Counter
 import math
 import edit_distance
 import re
+import string
 
 
 data_dir = os.path.join("..", "data")
@@ -96,10 +97,73 @@ def test_break_pinyin():
     assert break_pinyin("āndōngní'ào") == "ān dōng ní ào"
     assert break_pinyin("ā bǐ gàiěr") == "ā bǐ gài ěr"
 
+# handle phonetically similar cases
+def phoneme_adjust(eng):            
+    eng = eng.lower()
+    eng = eng.replace('ju', 'zhu')
+    eng = eng.replace('ew', 'iu')
+    eng = eng.replace('r', 'l')
+
+    # get rid of repeating letters
+    for i in range(len(eng)):
+        if i < len(eng) - 1 and eng[i] == eng[i + 1]:
+            eng = eng[0:i] + eng[i + 1:]
+            
+    eng = eng.replace('ia', 'iya')
+    eng = eng.replace('ce', 'si')
+    eng = eng.replace('ci', 'si')
+    eng = eng.replace('ch', 'q')
+    eng = eng.replace('c', 'k')
+    eng = eng.replace('ck', 'k')
+    eng = eng.replace('ph', 'f')
+    if eng.count('y') > 1:
+        eng = "".join(reversed("".join(reversed(eng)).replace('y', 'i', 1))) # y is i if at end of string
+    if eng != "" and eng[-1] == 'y':
+        eng = eng[0:len(eng) - 1] + 'i'
+    eng = eng.replace('th', 'x')
+    eng = eng.replace('v', 'w')
+
+    # get rid of repeating letters once more
+    for i in range(len(eng)):
+        if i < len(eng) - 1 and eng[i] == eng[i + 1]:
+            eng = eng[0:i] + eng[i + 1:]
+            
+    return eng
+
+# syllable number heuristic
+import numpy as np
+from sklearn import linear_model
+
+def len_without_vowels(eng):
+    return len([char for char in eng if not is_vowel(char)])
+
+def num_cons_clusters(eng):
+    num = 0
+    for i in range(len(eng)):
+        if i < len(eng) - 1 and not is_vowel(eng[i]) and not is_vowel(eng[i + 1]):
+            num += 1
+    return num
+
+lin_mod = linear_model.LinearRegression()
+chinese_names['length'] = chinese_names.apply(lambda row: len(phoneme_adjust(row['first name'])), axis = 1)
+chinese_names['consonants'] = chinese_names.apply(lambda row: len_without_vowels(phoneme_adjust(row['first name'])), axis = 1)
+##chinese_names['clusters'] = chinese_names.apply(lambda row: num_cons_clusters(row['first name']), axis = 1)
+chinese_names['syllables'] = chinese_names.apply(lambda row: len(row['chinese']), axis = 1)
+
+train_input = chinese_names[chinese_names.columns[-3:-1]]
+train_output = chinese_names[chinese_names.columns[-1:]]
+
+lin_mod.fit(train_input, train_output)
+
+def expected_syllables(eng):
+    name_length = len(eng)
+    name_consonants = len_without_vowels(eng)
+##    name_clusters = num_cons_clusters(eng)
+    pred_input = pd.DataFrame({'length': [name_length], 'consonants': [name_consonants]})
+    return lin_mod.predict(pred_input)[0][0]
 
 
-
-# inspired from reconstruction assignment
+# uniform cost function inspired from reconstruction assignment
 def create_ucf(pinyins = None):
     split_pinyin = []
 
@@ -124,7 +188,8 @@ def create_ucf(pinyins = None):
         else:
             ucs =  math.log(total_unigrams) - math.log(unigram_freqs[p]) # English names dont have tones, so we can just ignore them
 
-        # edit_distance.edit_distance_piyin takes into account tone differences
+        # edit_distance.edit_distance_pinyin takes into account tone differences
+        p = phoneme_adjust(p)
         return min([(edit_distance.edit_distance(p, remove_tone(pinyin)) * ucs, pinyin) for pinyin in unigram_freqs])
         
     return ucf
