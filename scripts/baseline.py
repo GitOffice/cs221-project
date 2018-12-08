@@ -2,6 +2,8 @@ import pandas as pd
 import sys
 import edit_distance
 import os
+from pypinyin import pinyin
+import search_utils
 
 # this is probably bad style...
 arp_to_chin = pd.ExcelFile(os.path.join("..", "data", "ARPtoChineseFinal.xls"))
@@ -105,8 +107,33 @@ def baseline(components):
         i += 1
     return "".join(all_chars)
 
+def evaluate_predictions():
+    all_names = search_utils.chinese_names
+    distance = 0
+    diff_count = 0
+    for row_i, row in all_names.iterrows():
+        if row_i % 20 == 0:
+            print("{}% complete".format(100 * row_i/all_names.shape[0]))
+        english, _, _, target_pinyin, _, _, _ = row
+
+        result = baseline(english)
+        result_pinyin = pinyin(result)
+        
+        target_pinyin = ''.join(filter(lambda x: x != ' ', search_utils.normalize(target_pinyin)))
+        output_pinyin = ''.join([seg[0] for seg in result_pinyin])
+        if output_pinyin != target_pinyin:
+            #print (english, output_pinyin, target_pinyin)
+            diff_count += 1
+            distance += edit_distance.edit_distance_pinyin(target_pinyin, output_pinyin)
+
+    print("Out of {} names, {} were different, with an average edit distance of {} ({} for just the different pairs)".format(all_names.shape[0], diff_count, distance/all_names.shape[0], distance/diff_count))
+
 if __name__ == "__main__":
-    while True:
-        components = input("Enter a name: ")
-        res = baseline(components)
-        print(res)
+    if len(sys.argv) > 1 and sys.argv[1] == 'eval':
+        evaluate_predictions()
+    else:
+        while True:
+            components = input("Enter a name: ")
+            res = baseline(components)
+            res_pinyin = pinyin(res)
+            print(res + ' | ' + ' '.join([seg[0] for seg in res_pinyin]))

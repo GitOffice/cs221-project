@@ -102,7 +102,11 @@ def phoneme_adjust(eng):
     eng = eng.lower()
     eng = eng.replace('ju', 'zhu')
     eng = eng.replace('ew', 'iu')
-    eng = eng.replace('r', 'l')
+    eng = eng.replace('ei', 'a')
+    end_in_r = eng[-1] == 'r'
+    eng = eng.replace('r', 'l') # NEED TO DO ONLY IF NOT END IN R
+    if end_in_r:
+        eng = eng[0:len(eng) - 1] + 'r'
 
     # get rid of repeating letters
     for i in range(len(eng)):
@@ -112,6 +116,7 @@ def phoneme_adjust(eng):
     eng = eng.replace('ia', 'iya')
     eng = eng.replace('ce', 'si')
     eng = eng.replace('ci', 'si')
+    eng = eng.replace('cy', 'xi')
     eng = eng.replace('ch', 'q')
     eng = eng.replace('c', 'k')
     eng = eng.replace('ck', 'k')
@@ -162,6 +167,57 @@ def expected_syllables(eng):
     pred_input = pd.DataFrame({'length': [name_length], 'consonants': [name_consonants]})
     return lin_mod.predict(pred_input)[0][0]
 
+def syllable_heuristic(eng):
+    length = len(eng)
+    total = 0
+    i = 0
+    while i < length:
+        if not is_vowel(eng[i]):
+            if i < length - 1 and not is_vowel(eng[i + 1]) and eng[i] + eng[i + 1] not in ['th', 'sh', 'ch', 'zh', 'kh', 'ph'] or i == length - 1:
+                # lone consonant
+                total += 1
+                print(eng[i])
+                i += 1                
+                continue
+            elif i < length - 1 and not is_vowel(eng[i + 1]): # acceptable one-syllable cluster
+                i += 1
+            if i + 2 == length or (i + 3 < length and not is_vowel(eng[i + 2]) and eng[i + 2] not in 'n' and is_vowel(eng[i + 3])):
+                # do CV pairing, not CVC case
+                total += 1
+                print(eng[i] + eng[i + 1])
+                i += 2
+            elif i + 3 == length and is_vowel(eng[i + 2]) or i + 3 < length and is_vowel(eng[i + 2]):
+                # CVV case
+                total += 1
+                print(eng[i] + eng[i + 1] + eng[i + 2])
+                i += 3
+            else: # CVC case
+                total += 1
+                if i + 2 < length and eng[i + 2] not in 'n': # needs to be separate, not CVC
+                    print(eng[i] + eng[i + 1])
+                    i -= 1                    
+                else:
+                    if i + 2 < length:
+                        print(eng[i] + eng[i + 1] + eng[i + 2])
+                    else:
+                        print(eng[i:])
+                i += 3
+        elif is_vowel(eng[i]):
+            if i == length - 1: # lone vowel
+                total += 1
+                print(eng[i])
+                i += 1
+            else: # VC case
+                total += 1
+                if i + 1 == length - 1 and eng[i + 1] not in 'n': # needs to be separate, not VC
+                    print(eng[i])
+                    i -= 1
+                else:
+                    print(eng[i] + eng[i + 1])
+                i += 2
+                
+    return max(total, 2)
+        
 
 # uniform cost function inspired from reconstruction assignment
 def create_ucf(pinyins = None):
