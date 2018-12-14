@@ -4,7 +4,7 @@ import sys
 
 MAX_PINYIN_SIZE = 6
 
-def find_closest_pinyin(name, do_print):
+def find_closest_pinyin(name, do_print=False):
 
     unigram_cost = search_utils.create_ucf()
 
@@ -55,8 +55,8 @@ def evaluate_predictions():
     diff_count = 0
     for row_i, row in all_names.iterrows():
         if row_i % 20 == 0:
-            print("{.2f}% complete".format(100 * row_i/all_names.shape[0]))
-        english, _, _, target_pinyin = row
+            print("{}% complete".format(100 * row_i/all_names.shape[0]))
+        english, _, _, target_pinyin, _, _, _ = row
         english = search_utils.normalize(english)
         target_pinyin = ''.join(filter(lambda x: x != ' ', search_utils.normalize(target_pinyin)))
 
@@ -78,6 +78,6 @@ if __name__ == "__main__":
     else:
         while True:
             name = input("name >> ")
-            result = find_closest_pinyin(name)
-            print(resul
+            result = find_closest_pinyin(name, True)
+            print(result)
 

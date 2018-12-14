@@ -78,7 +78,7 @@ def init_ngrams():
     counter = {}
     whole_corpus = {}
     for rowi, row in chinese_names.iterrows():
-        name, _, _, pinyin = row
+        name, _, _, pinyin, _, _, _ = row
         name = "S" + name.lower() + "E"
         all_grams = []
         
@@ -262,7 +262,7 @@ def evaluate_predictions(**kwargs):
         #     break
         if row_i % 50 == 0:
             print("{}% complete".format(100 * row_i/search_utils.chinese_names.shape[0]))
-        english, _, _, target_pinyin = row
+        english, _, _, target_pinyin, _, _, _ = row
         english = search_utils.normalize(english)
         target_pinyin = ''.join(filter(lambda x: x != ' ', search_utils.normalize(target_pinyin)))
         #print(english)
