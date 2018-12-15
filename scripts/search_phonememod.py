@@ -4,12 +4,14 @@ import sys
 import math
 
 MAX_PINYIN_SIZE = 6
+ok_clusters = {'ch', 'sh', 'th'}
 
 def find_closest_pinyin(name, do_print):
 
     unigram_cost = search_utils.create_ucf()
     name = search_utils.phoneme_adjust(name)
-    target_syllables = search_utils.expected_syllables(name)
+##    target_syllables = search_utils.expected_syllables(name)
+    target_syllables = search_utils.syllable_heuristic(name)
 
     cache = {}
     # iterate through all possible breakings of the name (i.e. powerset of characters)
