@@ -6,7 +6,7 @@ We put every test in its own file in the scripts directory. To run any test, you
 Some example filenames:
 * Baseline: `baseline.py`
 * Edit Distance Search: `search.py`
-* Edit Distance Search with Phoneme Corrections: `search_phonememod.py`
+* Edit Distance Search with Phoneme-Adjustment: `search_phonememod.py`
 * Co-occurrence Table Search: `ngrams_search.py`
 * Character Decoding DL: `model.py`
 * Syllable Decoding DL: `model_syll.py`
