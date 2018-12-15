@@ -17,7 +17,7 @@ def normalize(s):
     (such as removing spaces)
     """
     s = re.sub(r"([-.·])", r"", s) # remove punctuation that seems to have seeped in (including chinese dash)
-    return s.lower()
+    return s.lower().strip()
 
 def is_vowel(c):
     return c in 'āáǎàaēéěèeīíǐìiōóǒòoūúǔùuǖǘǚǜü'

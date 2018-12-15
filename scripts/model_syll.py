@@ -32,6 +32,7 @@ SOS_token = 0
 EOS_token = 1
 
 # Alphabet class (works with both pinyin and English)
+# Alphabet class (works with both pinyin and English)
 class Alphabet:
     def __init__(self, name):
         self.name = name
@@ -45,7 +46,10 @@ class Alphabet:
         Adds the characters of a name to the alphabet by iterating over them
         and updating the appropriate counts
         """
-        for letter in name: # for pinyin we can keep the space as a letter and see if this thing learns syllable boundries
+        if self.name.lower() == "pinyin": # for pinyin we can use the syllables instead of the raw letters. 
+            name = name.split(" ")        # they'll still fall into the "letter" category though
+            
+        for letter in name: 
             if letter not in self.letter2index:
                 self.letter2index[letter] = self.n_letters
                 self.letter2count[letter] = 1
@@ -73,6 +77,7 @@ def read_alphabets():
     output_alph = Alphabet("Pinyin")
     pairs = []
     
+    df = pd.read_csv(data_file)
     for row_i, row in df.iterrows():
         english, _, _, pinyin = row
         english = normalize(english)
@@ -89,26 +94,26 @@ def read_alphabets():
         
 eng_alph, pin_alph, pairs = read_alphabets()
 
-
-# Actual Models
-
-
 class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size):
         super(EncoderRNN, self).__init__()
         self.hidden_size = hidden_size
 
-        self.embedding = nn.Embedding(input_size, hidden_size)
+        # Embedding is really just a lookup table that takes an index input and returns some k-dimensional vector
+        # input_size is size of table, hidden size is number of weights associated with each vector. We really only
+        # need this to be a one-hot vector for our purposes so we can probably don't need to explicity represent an 
+        # embedding. The smaller our embedding dimension the more information we're giving up
+        self.embedding = nn.Embedding(input_size, hidden_size) 
         self.gru = nn.GRU(hidden_size, hidden_size)
 
     def forward(self, input, hidden):
         embedded = self.embedding(input).view(1, 1, -1)
-        output, hidden = self.gru(embedded, hidden)
+        output = embedded
+        output, hidden = self.gru(output, hidden)
         return output, hidden
 
     def initHidden(self):
         return torch.zeros(1, 1, self.hidden_size)#, device=device)
-
 
 
 class DecoderRNN(nn.Module):
@@ -126,17 +131,17 @@ class DecoderRNN(nn.Module):
         
     def forward(self, x, hidden):
         output = self.embedding(x).view(1, 1, -1)
-        output = F.relu(output) # activation thing
+        output = F.relu(output) # regularization thing
         output, hidden = self.gru(output, hidden)
         output = self.softmax(self.out(output[0])) # output is only going to have a single thing, so this is legal i guess
         return output, hidden
-
-
-
-
+     
 
 def indexesFromName(alphabet, name):
-    return [alphabet.letter2index[l] for l in name]
+    if alphabet.name.lower() == "english":
+        return [alphabet.letter2index[l] for l in name]
+    else:
+        return [alphabet.letter2index[l] for l in name.split(" ")]
 
 def tensorFromName(alphabet, name):
     indexes = indexesFromName(alphabet, name)
@@ -335,12 +340,12 @@ def evaluate_single(encoder, decoder, name):
     return ''.join(output_name[:-1]) # again get rid of the <EOS>
 
 def save_model(encoder, decoder):
-    torch.save(encoder.state_dict(), os.path.join("..", "models", "{date:%Y-%m-%d-%H%M%S}-encoder".format(date=datetime.datetime.now())))
-    torch.save(decoder.state_dict(), os.path.join("..", "models", "{date:%Y-%m-%d-%H%M%S}-decoder".format(date=datetime.datetime.now())))
+    torch.save(encoder.state_dict(), os.path.join("..", "models", "{date:%Y-%m-%d-%H%M%S}-encoder-syll".format(date=datetime.datetime.now())))
+    torch.save(decoder.state_dict(), os.path.join("..", "models", "{date:%Y-%m-%d-%H%M%S}-decoder-syll".format(date=datetime.datetime.now())))
 
 
 def load_model(encoder_path, decoder_path):
-    hidden_size = 20
+    hidden_size = 28
     encoder1 = EncoderRNN(eng_alph.n_letters, hidden_size)
     decoder1 = DecoderRNN(hidden_size, pin_alph.n_letters)
     encoder1.load_state_dict(torch.load(encoder_path))
@@ -349,7 +354,7 @@ def load_model(encoder_path, decoder_path):
 
 
 if __name__ == "__main__":
-    encoder, decoder = load_model("../models/2018-12-14-174046-encoder", "../models/2018-12-14-174046-decoder")
+    encoder, decoder = load_model("../models/2018-12-14-173453-encoder-syll", "../models/2018-12-14-173453-decoder-syll")
     if len(sys.argv) > 1 and sys.argv[1] == 'eval':
         evaluateAllLines(encoder, decoder)
         evaluateRandomLines(encoder, decoder, 4)
